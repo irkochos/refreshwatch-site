@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to Auto Refresh a Page in Chrome (Free) – RefreshWatch</title>
+    <meta name="description" content="Chrome can't reload a tab on a timer by itself. Here's how to auto refresh any page in Chrome every few seconds or minutes with a free extension.">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f5f6fb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#13142a" media="(prefers-color-scheme: dark)">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="How to Auto Refresh a Page in Chrome (Free) – RefreshWatch">
+    <meta property="og:description" content="Chrome can't reload a tab on a timer by itself. Here's how to auto refresh any page in Chrome every few seconds or minutes with a free extension.">
+    <meta property="og:url" content="https://refreshwatch.com/auto-refresh-chrome/">
+    <meta property="og:image" content="https://refreshwatch.com/img/screenshot-1.png">
+    <link rel="canonical" href="https://refreshwatch.com/auto-refresh-chrome/">
+    <link rel="icon" href="../icon.svg" type="image/svg+xml">
+    <link rel="icon" href="../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="../site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="shell">
+        <a class="brand" href="../"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="../auto-refresh-chrome/" aria-current="page">Guides</a>
+          <a href="../support.html">Support</a>
+          <a href="../privacy-policy.html">Privacy</a>
+        </nav>
+        <a class="button" href="https://chromewebstore.google.com/">Add to Chrome</a>
+      </div>
+    </header>
+
+    <main id="main" class="article">
+      <div class="shell">
+        <h1>How to auto refresh a page in Chrome</h1>
+        <p class="lede">Chrome has no built-in setting that reloads a tab on a timer. An extension does it in a few clicks. This guide uses RefreshWatch, which is free.</p>
+        <p class="meta">Updated October 10, 2026</p>
+        <div class="prose">
+          <h2>Set up auto refresh in four steps</h2>
+          <ol>
+            <li><a href="https://chromewebstore.google.com/">Add RefreshWatch to Chrome</a>, then pin it from the puzzle-piece menu so the icon stays in the toolbar.</li>
+            <li>Open the page you want to refresh and click the RefreshWatch icon.</li>
+            <li>Under <strong>Refresh every</strong>, pick 5 s, 10 s, 30 s, 1 min, 5 min or 15 min. Choose <strong>Custom</strong> for any time from 1 second to 24 hours, or <strong>Random</strong> for a value between two times.</li>
+            <li>Click <strong>Start</strong>. The badge on the icon counts down to the next reload, and the popup shows the countdown and how many refreshes have run. Click <strong>Stop</strong> when you're done.</li>
+          </ol>
+          <figure>
+            <img src="../img/screenshot-1.png" width="1280" height="800" loading="lazy" alt="RefreshWatch refreshing a tab every 10 seconds, with 6 seconds to go and 2 refreshes so far.">
+            <figcaption>Auto refresh every 10 seconds. Each tab has its own timer.</figcaption>
+          </figure>
+          <p>That's all plain auto refresh needs. It doesn't ask for access to the site, because Chrome lets extensions reload a tab without reading it.</p>
+
+          <h2>Pick an interval that fits</h2>
+          <ul>
+            <li><strong>Seconds</strong> for things that move fast, like a ticket sale that opens at a set time. Keep it short-lived: reloading a site every few seconds for hours is heavy on the site and on your laptop battery.</li>
+            <li><strong>One to fifteen minutes</strong> suits most waiting: restocks, appointment slots, job boards, a dashboard that should stay current.</li>
+            <li><strong>Random</strong> spreads reloads out, for example anywhere between 45 and 90 seconds, when you don't need exact timing.</li>
+          </ul>
+
+          <h2>Useful options</h2>
+          <p>Open <strong>More options</strong> in the popup for these:</p>
+          <ul>
+            <li><strong>Stop after</strong> a number of refreshes, or <strong>stop at</strong> a time of day.</li>
+            <li><strong>Hard refresh</strong> skips the browser cache, for pages that keep showing an old copy.</li>
+            <li><strong>Only refresh when I'm not on this tab</strong>, so a page never reloads while you're reading or typing in it.</li>
+            <li><strong>Keep scroll position</strong>, so a long page comes back where you left it. This one needs access to the site, and Chrome asks you for that site only.</li>
+            <li><strong>Click a button after each reload</strong>, such as a “Load more” or “Check availability” button, with a short wait you choose.</li>
+          </ul>
+
+          <h2>Refresh a page automatically every time you open it</h2>
+          <p>If you come back to the same page often, choose <strong>Save as rule for this site</strong>. Next time you open a matching address, auto refresh starts by itself with the same settings. Rules can match an exact address, every page that starts with an address, or a wildcard pattern such as <code>https://shop.example.com/*/restock</code>. Manage them from <strong>Open rules &amp; log</strong>.</p>
+
+          <h2>Get told instead of watching</h2>
+          <p>Auto refresh is half the job. If you're waiting for something specific, let RefreshWatch check the page after every reload and alert you. The <a href="../website-change-alert/">website change alert guide</a> shows how.</p>
+
+          <h2>Good to know</h2>
+          <div class="callout">
+            <p>Chrome doesn't let extensions script <code>chrome://</code> pages or the Chrome Web Store, so watching doesn't work there. Plain auto refresh still does.</p>
+            <p>Without site access, plain auto refresh can't tell when you leave the site, so it keeps refreshing that tab until you stop it.</p>
+            <p>Refreshes run while Chrome is open and your computer is awake. Closing the tab stops its timer.</p>
+          </div>
+          <div class="cta-row">
+            <a class="button" href="https://chromewebstore.google.com/">Add RefreshWatch to Chrome</a>
+            <a class="button button-quiet" href="../support.html">Support and FAQ</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div>
+          <a class="brand" href="../"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+          <p>Auto refresh and page change alerts for Chrome. Free, no account, and nothing leaves your device.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Guides</strong>
+          <a href="../auto-refresh-chrome/">Auto refresh in Chrome</a>
+          <a href="../website-change-alert/">Website change alerts</a>
+          <a href="../auto-refresh-plus-alternative/">A free alternative</a>
+        </div>
+        <div class="footer-col">
+          <strong>Help</strong>
+          <a href="../support.html">Support and FAQ</a>
+          <a href="../privacy-policy.html">Privacy policy</a>
+        </div>
+        <div class="footer-col">
+          <strong>Get it</strong>
+          <a href="https://chromewebstore.google.com/">Chrome Web Store</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

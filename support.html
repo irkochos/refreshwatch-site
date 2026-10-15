@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Support and FAQ – RefreshWatch</title>
+    <meta name="description" content="Help for RefreshWatch: getting started, site access, chrome:// pages, timers after an update, missing alerts, and how to delete your data.">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f5f6fb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#13142a" media="(prefers-color-scheme: dark)">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Support and FAQ – RefreshWatch">
+    <meta property="og:description" content="Help for RefreshWatch: getting started, site access, chrome:// pages, timers after an update, missing alerts, and how to delete your data.">
+    <meta property="og:url" content="https://refreshwatch.com/support.html">
+    <meta property="og:image" content="https://refreshwatch.com/img/screenshot-1.png">
+    <link rel="canonical" href="https://refreshwatch.com/support.html">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="shell">
+        <a class="brand" href="./"><img src="icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="auto-refresh-chrome/">Guides</a>
+          <a href="support.html" aria-current="page">Support</a>
+          <a href="privacy-policy.html">Privacy</a>
+        </nav>
+        <a class="button" href="https://chromewebstore.google.com/">Add to Chrome</a>
+      </div>
+    </header>
+
+    <main id="main" class="article">
+      <div class="shell">
+        <h1>Support</h1>
+        <p class="lede">Quick answers about RefreshWatch, including what it can't do. Still stuck? Email <a href="mailto:support@refreshwatch.com">support@refreshwatch.com</a>.</p>
+        <div class="prose">
+          <h2>Getting started</h2>
+          <ol>
+            <li><a href="https://chromewebstore.google.com/">Add RefreshWatch to Chrome</a> and pin it from the puzzle-piece menu.</li>
+            <li>Open a page, click the RefreshWatch icon, choose an interval and click <strong>Start</strong>.</li>
+            <li>To be alerted, choose what to watch first: the whole page, one element, or a keyword.</li>
+          </ol>
+          <p>Step-by-step guides: <a href="auto-refresh-chrome/">auto refresh in Chrome</a> and <a href="website-change-alert/">website change alerts</a>.</p>
+
+          <h2>Questions and known limits</h2>
+          <div class="faq">
+            <details>
+              <summary>Why does it keep refreshing after I go to another site?</summary>
+              <div>
+                <p>Without site access, plain auto refresh can't tell when you leave the site. Chrome only shows an extension a tab's address for sites it has access to, so RefreshWatch keeps refreshing that tab until you stop it.</p>
+                <p>When RefreshWatch has access to the site (because you turned on watching, clicking, keep-scroll or a saved rule there), it stops when the tab moves to a different site.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Why can't I watch chrome:// pages or the Chrome Web Store?</summary>
+              <div><p>Chrome doesn't let any extension read or script <code>chrome://</code> pages, other extensions' pages or the Chrome Web Store. RefreshWatch can still auto refresh them; the watch options are turned off there and the popup says why.</p></div>
+            </details>
+            <details>
+              <summary>Why did my timers restart after RefreshWatch updated?</summary>
+              <div>
+                <p>When Chrome updates an extension it clears the extension's running state. After an update, RefreshWatch restarts its rules on open tabs that match them. A tab you started by hand, without a rule, needs to be started again.</p>
+                <p>The same applies after you restart Chrome: rules start again on matching pages, hand-started tabs don't.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Why does it ask for access to a site?</summary>
+              <div><p>Plain auto refresh doesn't need it. Reading the page to spot changes, clicking a button after reload, keeping the scroll position and saved rules do, so Chrome asks you for that one site when you turn one of them on. If you say no, auto refresh still works without the watch.</p></div>
+            </details>
+            <details>
+              <summary>Does it work when Chrome is closed or my computer is asleep?</summary>
+              <div><p>No. RefreshWatch runs in your browser and refreshes open tabs while Chrome is running and the computer is awake. It doesn't check pages from a server.</p></div>
+            </details>
+            <details>
+              <summary>I didn't get an alert. What should I check?</summary>
+              <div>
+                <ul>
+                  <li>Make sure your operating system allows notifications from Chrome, and that the sound is turned on in the popup.</li>
+                  <li>If the page loads slowly, raise <strong>Let the page settle for</strong> under <strong>More options</strong>.</li>
+                  <li>For an element watch, check the popup for a warning that the element wasn't found. Pages that are redesigned can lose the element; pick it again.</li>
+                  <li>The change log on the options page lists every change RefreshWatch found.</li>
+                </ul>
+              </div>
+            </details>
+            <details>
+              <summary>I get alerts for changes I don't care about.</summary>
+              <div><p>Watch one element instead of the whole page, or turn on <strong>Ignore changing numbers</strong> so clocks and counters don't count as changes.</p></div>
+            </details>
+            <details>
+              <summary>Is it really free? Will that change?</summary>
+              <div><p>Yes. There is no paid tier, trial, account or ad. Everything RefreshWatch does on your computer stays free. If a paid option ever appears, it will only add things that need a server, such as checking pages while your computer is off, and it won't lock any feature that is free today.</p></div>
+            </details>
+            <details>
+              <summary>How do I delete my data?</summary>
+              <div><p>Delete rules and select <strong>Clear log</strong> on the options page, or remove the extension, which deletes everything RefreshWatch stored. Details are in the <a href="privacy-policy.html">privacy policy</a>.</p></div>
+            </details>
+            <details>
+              <summary>Which languages does it speak?</summary>
+              <div><p>English, Arabic (right to left), German, Spanish, French, Japanese and Brazilian Portuguese. It follows Chrome's language setting.</p></div>
+            </details>
+          </div>
+
+          <h2>Contact</h2>
+          <p>Email <a href="mailto:support@refreshwatch.com">support@refreshwatch.com</a>. Include your Chrome version (from <code>chrome://version</code>), what you set in the popup, and what happened instead. Please don't send passwords or private page content.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div>
+          <a class="brand" href="./"><img src="icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+          <p>Auto refresh and page change alerts for Chrome. Free, no account, and nothing leaves your device.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Guides</strong>
+          <a href="auto-refresh-chrome/">Auto refresh in Chrome</a>
+          <a href="website-change-alert/">Website change alerts</a>
+          <a href="auto-refresh-plus-alternative/">A free alternative</a>
+        </div>
+        <div class="footer-col">
+          <strong>Help</strong>
+          <a href="support.html">Support and FAQ</a>
+          <a href="privacy-policy.html">Privacy policy</a>
+        </div>
+        <div class="footer-col">
+          <strong>Get it</strong>
+          <a href="https://chromewebstore.google.com/">Chrome Web Store</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

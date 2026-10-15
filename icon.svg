@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- RefreshWatch mark: a refresh arrow drawn as the iris of a watching eye, with an amber pupil.
+       Cobalt-violet tile (the popup's accent token) so it reads on light and dark toolbars alike. -->
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="#3b3dd0"/>
+  <path d="M91.7 48 A32 32 0 1 1 58.4 32.5" fill="none" stroke="#f5f6fb" stroke-width="11" stroke-linecap="round"/>
+  <path d="M73.5 29.9 L54.3 21 L58.5 44.7 Z" fill="#f5f6fb" stroke="#f5f6fb" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="11" fill="#f2bf6b"/>
+</svg>

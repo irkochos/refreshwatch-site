@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy – RefreshWatch</title>
+    <meta name="description" content="How RefreshWatch handles tab addresses, page text, rules and the change log: locally, with no uploads, analytics, advertising or tracking.">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f5f6fb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#13142a" media="(prefers-color-scheme: dark)">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Privacy Policy – RefreshWatch">
+    <meta property="og:description" content="How RefreshWatch handles tab addresses, page text, rules and the change log: locally, with no uploads, analytics, advertising or tracking.">
+    <meta property="og:url" content="https://refreshwatch.com/privacy-policy.html">
+    <meta property="og:image" content="https://refreshwatch.com/img/screenshot-1.png">
+    <link rel="canonical" href="https://refreshwatch.com/privacy-policy.html">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="shell">
+        <a class="brand" href="./"><img src="icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="auto-refresh-chrome/">Guides</a>
+          <a href="support.html">Support</a>
+          <a href="privacy-policy.html" aria-current="page">Privacy</a>
+        </nav>
+        <a class="button" href="https://chromewebstore.google.com/">Add to Chrome</a>
+      </div>
+    </header>
+
+    <main id="main" class="article">
+      <div class="shell">
+        <h1>Privacy policy</h1>
+        <p class="lede">RefreshWatch refreshes the tabs you choose and compares their content on your device. It doesn't collect, send, sell or share anything.</p>
+        <p class="meta">Effective October 10, 2026. Applies to the RefreshWatch Chrome extension, version 0.1.0 and later.</p>
+        <div class="prose">
+          <h2>In short</h2>
+          <ul>
+            <li>No account, no analytics, no advertising, no tracking and no remote code.</li>
+            <li>The extension makes no network requests of its own. Page content is read and compared only on your device.</li>
+            <li>Your rules, settings and change log are stored in Chrome on your computer and are deleted when you remove the extension.</li>
+          </ul>
+
+          <h2>What RefreshWatch handles</h2>
+          <ul>
+            <li><strong>Tab addresses.</strong> To refresh a tab, match it against your saved rules, and notice when it leaves the site it started on, RefreshWatch reads the address of the tabs it refreshes.</li>
+            <li><strong>Page text.</strong> When you turn on watching, RefreshWatch reads the visible text of the page, or of the one element you picked, after each refresh and compares it with the previous refresh. With a keyword watch it checks whether your keyword is present.</li>
+            <li><strong>Your choices.</strong> Intervals, the element you picked (stored as a CSS selector), keywords, alert choices, saved rules and default settings.</li>
+            <li><strong>The change log.</strong> For each detected change: the time, the page address, the rule (if any), and up to 300 characters of text before and after. At most the last 50 changes are kept.</li>
+          </ul>
+          <p>When you click a button you picked for “click a button after reload”, RefreshWatch clicks it in your own browser, as you would.</p>
+
+          <h2>Where it is stored, and for how long</h2>
+          <ul>
+            <li><strong>While a tab is running</strong>, its timer state and the last compared text are kept in Chrome's session storage (<code>chrome.storage.session</code>). Chrome clears this when the browser closes or the extension is updated or removed.</li>
+            <li><strong>Rules, default settings and the change log</strong> are kept in Chrome's local extension storage (<code>chrome.storage.local</code>) on this computer until you delete a rule, select <strong>Clear log</strong>, or remove RefreshWatch. They are not synced.</li>
+          </ul>
+
+          <h2>Collection and sharing</h2>
+          <p>RefreshWatch does not transmit page content, addresses, settings or usage information to the developer or anyone else. It has no server, analytics, advertising, tracking or account system. Alerts are shown with Chrome's own notifications and played on your computer. RefreshWatch does not sell or share user data.</p>
+
+          <h2>Permissions</h2>
+          <ul>
+            <li><strong>Alarms</strong> time the refreshes. <strong>Storage</strong> keeps your rules, settings and log. <strong>Notifications</strong> show alerts. <strong>Offscreen</strong> plays the alert sound.</li>
+            <li><strong>Active tab</strong> lets the popup work with the tab you're on when you open it.</li>
+            <li><strong>Scripting</strong> runs RefreshWatch's own packaged scripts on a site you have allowed: to read the watched text, run the element picker, click the button you picked, and keep the scroll position.</li>
+            <li><strong>Site access</strong> is optional and asked for one site at a time, only when you turn on watching, clicking, keep-scroll or a saved rule for that site. You can remove it any time in Chrome's extension settings. Plain auto refresh needs none.</li>
+          </ul>
+
+          <h2>Limited use</h2>
+          <p>RefreshWatch uses website content and tab addresses only to provide its single purpose: refreshing the tabs you choose and alerting you when their content changes. This use complies with the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+
+          <h2>Your control</h2>
+          <p>Stop any tab from the popup. Delete rules and clear the change log on the options page. Remove site access in Chrome's extension settings. Removing RefreshWatch deletes everything it stored.</p>
+
+          <h2>Children</h2>
+          <p>RefreshWatch is a general-purpose browser tool. It collects no personal information from anyone, including children.</p>
+
+          <h2>Changes to this policy</h2>
+          <p>If a future version handles data differently, this page will be updated before that version is published, with a new effective date.</p>
+
+          <h2>Contact</h2>
+          <p>For privacy or support questions, see the <a href="support.html">support page</a> or email <a href="mailto:support@refreshwatch.com">support@refreshwatch.com</a>.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div>
+          <a class="brand" href="./"><img src="icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+          <p>Auto refresh and page change alerts for Chrome. Free, no account, and nothing leaves your device.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Guides</strong>
+          <a href="auto-refresh-chrome/">Auto refresh in Chrome</a>
+          <a href="website-change-alert/">Website change alerts</a>
+          <a href="auto-refresh-plus-alternative/">A free alternative</a>
+        </div>
+        <div class="footer-col">
+          <strong>Help</strong>
+          <a href="support.html">Support and FAQ</a>
+          <a href="privacy-policy.html">Privacy policy</a>
+        </div>
+        <div class="footer-col">
+          <strong>Get it</strong>
+          <a href="https://chromewebstore.google.com/">Chrome Web Store</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
