@@ -40,7 +40,7 @@
         <div class="prose">
           <h2>How it works</h2>
           <p>RefreshWatch reloads the tab on a timer you choose. After each reload it waits a moment for the page to settle, reads the part you asked it to watch, and compares it with the previous reload. When it changes, you get a desktop notification and a sound. By default it then stops refreshing, so the page stays as it was when the change happened.</p>
-          <p>All of this happens in your own browser. That means it works on pages you're signed in to, and the page text never goes to a server.</p>
+          <p>All of this happens in your own browser. That means it works on pages you're signed in to, and the page text never goes to a server of ours. (If you choose to get phone alerts, the alert goes to the address you enter, and nowhere else.)</p>
 
           <h2>Choose what counts as a change</h2>
           <h3>The whole page</h3>
@@ -70,8 +70,8 @@
           <h2>Monitor a website for changes every time you open it</h2>
           <p>Choose <strong>Save as rule for this site</strong> and the same watch starts on its own whenever you open a matching page, even after Chrome restarts. The options page lists your rules, lets you turn them off, and keeps a change log of the last 50 changes with the text before and after.</p>
           <figure>
-            <img src="../img/screenshot-5.png" width="1280" height="800" loading="lazy" alt="The change log: a price change from $148.00 to $119.00, and a keyword match.">
-            <figcaption>The change log stays on your computer. Clear it any time.</figcaption>
+            <img src="../img/screenshot-5.png" width="1280" height="800" loading="lazy" alt="A price watch stopped on a match: the price dropped from $148.00 to $119.00.">
+            <figcaption>A price watch. The change log on the options page keeps the text before and after, on your computer. Clear it any time. See the <a href="../price-drop-alert/">price drop alert guide</a>.</figcaption>
           </figure>
 
           <h2>Fewer false alerts</h2>
@@ -84,7 +84,7 @@
 
           <h2>Good to know</h2>
           <div class="callout">
-            <p>RefreshWatch checks pages in open tabs, while Chrome is running. It doesn't check pages in the cloud when your computer is off, and it doesn't send email or text messages.</p>
+            <p>RefreshWatch checks pages in open tabs, while Chrome is running. It doesn't check pages in the cloud when your computer is off, and it doesn't send email or text messages. To get the alert on your phone, <a href="../phone-alerts/">send it to ntfy, Discord, Telegram or Slack</a>, with Chrome left open.</p>
             <p>Chrome doesn't let extensions read <code>chrome://</code> pages or the Chrome Web Store.</p>
             <p>If notifications don't show up, check that your operating system allows notifications from Chrome.</p>
           </div>
@@ -100,13 +100,15 @@
       <div class="shell">
         <div>
           <a class="brand" href="../"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
-          <p>Auto refresh and page change alerts for Chrome. Free, no account, and nothing leaves your device.</p>
+          <p>Auto refresh and page change alerts for Chrome. Free, no account, and no servers: nothing passes through us.</p>
         </div>
         <div class="footer-col">
           <strong>Guides</strong>
           <a href="../auto-refresh-chrome/">Auto refresh in Chrome</a>
           <a href="../website-change-alert/">Website change alerts</a>
           <a href="../auto-refresh-plus-alternative/">A free alternative</a>
+          <a href="../phone-alerts/">Phone alerts</a>
+          <a href="../price-drop-alert/">Price drop alert</a>
         </div>
         <div class="footer-col">
           <strong>Help</strong>

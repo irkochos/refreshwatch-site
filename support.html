@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Support and FAQ – RefreshWatch</title>
-    <meta name="description" content="Help for RefreshWatch: getting started, site access, chrome:// pages, timers after an update, missing alerts, and how to delete your data.">
+    <meta name="description" content="Help for RefreshWatch: getting started, site access, chrome:// pages, timers after an update, phone alerts, missing alerts, and how to delete your data.">
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#f5f6fb" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#13142a" media="(prefers-color-scheme: dark)">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Support and FAQ – RefreshWatch">
-    <meta property="og:description" content="Help for RefreshWatch: getting started, site access, chrome:// pages, timers after an update, missing alerts, and how to delete your data.">
+    <meta property="og:description" content="Help for RefreshWatch: getting started, site access, chrome:// pages, timers after an update, phone alerts, missing alerts, and how to delete your data.">
     <meta property="og:url" content="https://refreshwatch.com/support.html">
     <meta property="og:image" content="https://refreshwatch.com/img/screenshot-1.png">
     <link rel="canonical" href="https://refreshwatch.com/support.html">
@@ -74,6 +74,13 @@
               <div><p>No. RefreshWatch runs in your browser and refreshes open tabs while Chrome is running and the computer is awake. It doesn't check pages from a server.</p></div>
             </details>
             <details>
+              <summary>How do I get alerts on my phone?</summary>
+              <div>
+                <p>Open the options page, go to <strong>Phone alerts</strong>, and add a destination: ntfy (easiest), Discord, Telegram, Slack or any app that accepts a webhook. You can add up to three. Press <strong>Send test</strong> to check it straight away, then switch on <strong>Send to my phone</strong> in the popup for the watch you start.</p>
+                <p>RefreshWatch sends the alert from Chrome straight to the address you entered; nothing passes through us. Chrome must stay open on your computer. At most one alert per destination goes out every 10 seconds; alerts in between are combined into one that follows when the 10 seconds are up. Step-by-step setup for each app: <a href="phone-alerts/">phone alerts guide</a>.</p>
+              </div>
+            </details>
+            <details>
               <summary>I didn't get an alert. What should I check?</summary>
               <div>
                 <ul>
@@ -112,13 +119,15 @@
       <div class="shell">
         <div>
           <a class="brand" href="./"><img src="icon.svg" alt="" width="30" height="30">RefreshWatch</a>
-          <p>Auto refresh and page change alerts for Chrome. Free, no account, and nothing leaves your device.</p>
+          <p>Auto refresh and page change alerts for Chrome. Free, no account, and no servers: nothing passes through us.</p>
         </div>
         <div class="footer-col">
           <strong>Guides</strong>
           <a href="auto-refresh-chrome/">Auto refresh in Chrome</a>
           <a href="website-change-alert/">Website change alerts</a>
           <a href="auto-refresh-plus-alternative/">A free alternative</a>
+          <a href="phone-alerts/">Phone alerts</a>
+          <a href="price-drop-alert/">Price drop alert</a>
         </div>
         <div class="footer-col">
           <strong>Help</strong>

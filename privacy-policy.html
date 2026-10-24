@@ -35,14 +35,15 @@
     <main id="main" class="article">
       <div class="shell">
         <h1>Privacy policy</h1>
-        <p class="lede">RefreshWatch refreshes the tabs you choose and compares their content on your device. It doesn't collect, send, sell or share anything.</p>
-        <p class="meta">Effective October 10, 2026. Applies to the RefreshWatch Chrome extension, version 0.1.0 and later.</p>
+        <p class="lede">RefreshWatch refreshes the tabs you choose and compares their content on your device. It doesn't collect anything, and it sends nothing anywhere unless you set up a phone alert.</p>
+        <p class="meta">Effective October 24, 2026. Applies to the RefreshWatch Chrome extension, version 0.2.0 and later.</p>
         <div class="prose">
           <h2>In short</h2>
           <ul>
             <li>No account, no analytics, no advertising, no tracking and no remote code.</li>
-            <li>The extension makes no network requests of its own. Page content is read and compared only on your device.</li>
+            <li>RefreshWatch never sends anything to us; we have no servers. It makes a network request in only one case: if you add a phone alert destination, it sends your alerts (the page title, address and, if you leave it on, the changed text) to the address you entered, such as your Discord webhook or ntfy topic. That service's own privacy policy applies to what it receives. Remove the destination and nothing is sent.</li>
             <li>Your rules, settings and change log are stored in Chrome on your computer and are deleted when you remove the extension.</li>
+            <li>When you remove RefreshWatch, Chrome opens a web page on refreshwatch.com asking what went wrong. The only thing in its address is the version number you had. Answering is optional and happens by email.</li>
           </ul>
 
           <h2>What RefreshWatch handles</h2>
@@ -56,26 +57,27 @@
 
           <h2>Where it is stored, and for how long</h2>
           <ul>
-            <li><strong>While a tab is running</strong>, its timer state and the last compared text are kept in Chrome's session storage (<code>chrome.storage.session</code>). Chrome clears this when the browser closes or the extension is updated or removed.</li>
+            <li><strong>While a tab is running</strong>, its timer state and the last compared text are kept in Chrome's session storage (<code>chrome.storage.session</code>). Chrome clears this when the browser closes or the extension is updated or removed. A phone alert held back by the 10-second limit per destination is also kept there until it is sent, normally within 10 seconds (at most about 30).</li>
+            <li><strong>Phone alert destinations</strong> (addresses, tokens and topics) are kept in <code>chrome.storage.local</code> on this computer, never synced, and never shown in the change log, notifications or console. They are sent only to the service they belong to.</li>
             <li><strong>Rules, default settings and the change log</strong> are kept in Chrome's local extension storage (<code>chrome.storage.local</code>) on this computer until you delete a rule, select <strong>Clear log</strong>, or remove RefreshWatch. They are not synced.</li>
           </ul>
 
           <h2>Collection and sharing</h2>
-          <p>RefreshWatch does not transmit page content, addresses, settings or usage information to the developer or anyone else. It has no server, analytics, advertising, tracking or account system. Alerts are shown with Chrome's own notifications and played on your computer. RefreshWatch does not sell or share user data.</p>
+          <p>RefreshWatch does not transmit anything to the developer. It has no server, analytics, advertising, tracking or account system. Alerts are shown with Chrome's own notifications and played on your computer. The one exception is a phone alert destination that you add: RefreshWatch then sends each alert (the page title, the page address and, if “Include the changed text” is on, up to 300 characters of the changed text) to that address, and only to that address, at your direction. The destination is yours, such as your own Discord or Slack webhook, Telegram chat or ntfy topic, and its own privacy policy applies to what it receives. RefreshWatch does not sell user data or use it for advertising.</p>
 
           <h2>Permissions</h2>
           <ul>
             <li><strong>Alarms</strong> time the refreshes. <strong>Storage</strong> keeps your rules, settings and log. <strong>Notifications</strong> show alerts. <strong>Offscreen</strong> plays the alert sound.</li>
             <li><strong>Active tab</strong> lets the popup work with the tab you're on when you open it.</li>
             <li><strong>Scripting</strong> runs RefreshWatch's own packaged scripts on a site you have allowed: to read the watched text, run the element picker, click the button you picked, and keep the scroll position.</li>
-            <li><strong>Site access</strong> is optional and asked for one site at a time, only when you turn on watching, clicking, keep-scroll or a saved rule for that site. You can remove it any time in Chrome's extension settings. Plain auto refresh needs none.</li>
+            <li><strong>Site access</strong> is optional and asked for one site at a time, only when you turn on watching, clicking, keep-scroll or a saved rule for that site, or when you add a phone alert destination (then it asks for that one address, so it can send to it). You can remove it any time in Chrome's extension settings. Plain auto refresh needs none.</li>
           </ul>
 
           <h2>Limited use</h2>
           <p>RefreshWatch uses website content and tab addresses only to provide its single purpose: refreshing the tabs you choose and alerting you when their content changes. This use complies with the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
 
           <h2>Your control</h2>
-          <p>Stop any tab from the popup. Delete rules and clear the change log on the options page. Remove site access in Chrome's extension settings. Removing RefreshWatch deletes everything it stored.</p>
+          <p>Stop any tab from the popup. Delete rules and clear the change log on the options page. Remove site access in Chrome's extension settings. Removing RefreshWatch deletes everything it stored. Chrome then opens our feedback page; its address contains only the version number, and you can simply close it.</p>
 
           <h2>Children</h2>
           <p>RefreshWatch is a general-purpose browser tool. It collects no personal information from anyone, including children.</p>
@@ -93,13 +95,15 @@
       <div class="shell">
         <div>
           <a class="brand" href="./"><img src="icon.svg" alt="" width="30" height="30">RefreshWatch</a>
-          <p>Auto refresh and page change alerts for Chrome. Free, no account, and nothing leaves your device.</p>
+          <p>Auto refresh and page change alerts for Chrome. Free, no account, and no servers: nothing passes through us.</p>
         </div>
         <div class="footer-col">
           <strong>Guides</strong>
           <a href="auto-refresh-chrome/">Auto refresh in Chrome</a>
           <a href="website-change-alert/">Website change alerts</a>
           <a href="auto-refresh-plus-alternative/">A free alternative</a>
+          <a href="phone-alerts/">Phone alerts</a>
+          <a href="price-drop-alert/">Price drop alert</a>
         </div>
         <div class="footer-col">
           <strong>Help</strong>

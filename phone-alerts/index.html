@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Get a Phone Notification When a Website Changes – RefreshWatch</title>
+    <meta name="description" content="Get a phone notification when a website changes: send RefreshWatch alerts to ntfy, Discord, Telegram, Slack or any webhook. Free, no account, nothing passes through our servers.">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f5f6fb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#13142a" media="(prefers-color-scheme: dark)">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Get a Phone Notification When a Website Changes – RefreshWatch">
+    <meta property="og:description" content="Get a phone notification when a website changes: send RefreshWatch alerts to ntfy, Discord, Telegram, Slack or any webhook. Free, no account, nothing passes through our servers.">
+    <meta property="og:url" content="https://refreshwatch.com/phone-alerts/">
+    <meta property="og:image" content="https://refreshwatch.com/img/phone-destinations.png">
+    <link rel="canonical" href="https://refreshwatch.com/phone-alerts/">
+    <link rel="icon" href="../icon.svg" type="image/svg+xml">
+    <link rel="icon" href="../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="../site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="shell">
+        <a class="brand" href="../"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="../auto-refresh-chrome/" aria-current="page">Guides</a>
+          <a href="../support.html">Support</a>
+          <a href="../privacy-policy.html">Privacy</a>
+        </nav>
+        <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=phone-alerts">Add to Chrome</a>
+      </div>
+    </header>
+
+    <main id="main" class="article">
+      <div class="shell">
+        <h1>Get a phone notification when a website changes</h1>
+        <p class="lede">RefreshWatch checks the page in Chrome. When it changes, it can send the alert to your phone through an app you already use: ntfy, Discord, Telegram, Slack, or any app that accepts a webhook.</p>
+        <p class="meta">Updated October 24, 2026</p>
+        <div class="prose">
+          <h2>How it works</h2>
+          <p>You paste in your own address, and RefreshWatch sends the alert straight there from Chrome. There is no account with us and nothing passes through our servers. We don't have any.</p>
+          <ol>
+            <li>Pick a service below and add it on the options page, under <strong>Phone alerts</strong>. You can add up to three.</li>
+            <li>In the popup, switch on <strong>Send to my phone</strong> for the watch you start. It's off until you turn it on.</li>
+            <li>Leave Chrome open on your computer. RefreshWatch watches pages in open tabs and doesn't check them in the cloud, so a closed Chrome or a sleeping computer sends nothing.</li>
+          </ol>
+          <figure>
+            <img src="../img/phone-destinations.png" width="1728" height="524" loading="lazy" alt="The destinations list with an ntfy and a Discord destination, and Sent. Check your phone. after a test.">
+            <figcaption>Two destinations. <strong>Send test</strong> tells you straight away whether it works.</figcaption>
+          </figure>
+          <nav class="jump" aria-label="Services"><a href="#ntfy">ntfy</a> <a href="#discord">Discord</a> <a href="#telegram">Telegram</a> <a href="#slack">Slack</a> <a href="#generic">Other (JSON)</a></nav>
+          <section class="provider" id="ntfy" aria-labelledby="ntfy-h">
+            <h2 id="ntfy-h">ntfy <span class="tag">easiest</span></h2>
+            <p>ntfy is a free push notification app. There is no account and no sign-up: a topic name works like a private channel.</p>
+            <ol>
+              <li>Install the ntfy app on your phone (Android or iPhone) and open it.</li>
+              <li>In the app, tap <strong>+</strong> and subscribe to a topic name. Any name works, but anyone who knows it can read it, so make it hard to guess.</li>
+              <li>In RefreshWatch, open the options page and choose the <strong>Phone alerts</strong> tab. Under <strong>Send with</strong>, pick <strong>ntfy</strong>.</li>
+              <li>Leave <strong>Server</strong> as <code>https://ntfy.sh</code> (or enter your own server). In <strong>Topic</strong>, type the same topic name, or click <strong>Make a random topic</strong> and subscribe to that one in the app.</li>
+              <li>Click <strong>Save destination</strong>. Chrome asks to let RefreshWatch send to the ntfy server; allow it. Nothing else is granted.</li>
+              <li>Click <strong>Send test</strong>. Your phone should buzz within a few seconds. Tapping the alert opens the page.</li>
+            </ol>
+            <figure>
+              <img src="../img/phone-form-ntfy.png" width="1424" height="938" loading="lazy" alt="The Phone alerts form for ntfy, with the server and a random topic.">
+              <figcaption>The ntfy form. The topic here is made up for the screenshot.</figcaption>
+            </figure>
+          </section>
+          <section class="provider" id="discord" aria-labelledby="discord-h">
+            <h2 id="discord-h">Discord</h2>
+            <p>A Discord notification arrives in a channel of your own server, and the Discord phone app pushes it to you.</p>
+            <ol>
+              <li>In Discord, open <strong>Server Settings</strong>, then <strong>Integrations</strong>, then <strong>Webhooks</strong>, and choose <strong>New Webhook</strong>. You need permission to manage webhooks on the server.</li>
+              <li>Pick the channel the alerts should go to, give the webhook a name, and click <strong>Copy Webhook URL</strong>.</li>
+              <li>In RefreshWatch, open <strong>Phone alerts</strong>, pick <strong>Discord</strong>, and paste the address into <strong>Webhook URL</strong>.</li>
+              <li>Click <strong>Save destination</strong>. Chrome asks to let RefreshWatch send to discord.com; allow it. Nothing else is granted.</li>
+              <li>Click <strong>Send test</strong> and check the channel.</li>
+            </ol>
+            <figure>
+              <img src="../img/phone-form-discord.png" width="1424" height="744" loading="lazy" alt="The Phone alerts form for Discord, with a webhook address.">
+              <figcaption>Treat the webhook address like a password: anyone who has it can post in that channel. RefreshWatch keeps it only in Chrome on this computer.</figcaption>
+            </figure>
+          </section>
+          <section class="provider" id="telegram" aria-labelledby="telegram-h">
+            <h2 id="telegram-h">Telegram</h2>
+            <p>A Telegram alert goes to your own chat, through a small helper account that you create for yourself in a minute.</p>
+            <ol>
+              <li>In Telegram, open a chat with <strong>@BotFather</strong>, send <code>/newbot</code>, and follow the questions. It replies with a token that looks like <code>123456789:AA…</code>.</li>
+              <li>Open a chat with the new account you just made and send it any message, such as “hi”. This lets it message you back.</li>
+              <li>Find your chat ID: open <code>https://api.telegram.org/bot&lt;your token&gt;/getUpdates</code> in a browser tab and look for <code>"chat":{"id":…}</code>. For a channel you can use its name, such as <code>@mychannel</code>.</li>
+              <li>In RefreshWatch, open <strong>Phone alerts</strong>, pick <strong>Telegram</strong>, and fill in <strong>Bot token</strong> and <strong>Chat ID</strong>.</li>
+              <li>Click <strong>Save destination</strong>. Chrome asks to let RefreshWatch send to api.telegram.org; allow it. Nothing else is granted.</li>
+              <li>Click <strong>Send test</strong> and check Telegram.</li>
+            </ol>
+            <figure>
+              <img src="../img/phone-form-telegram.png" width="1424" height="932" loading="lazy" alt="The Phone alerts form for Telegram, with a token and a chat ID.">
+              <figcaption>The token is a secret. RefreshWatch keeps it only in Chrome on this computer and sends it only to Telegram.</figcaption>
+            </figure>
+          </section>
+          <section class="provider" id="slack" aria-labelledby="slack-h">
+            <h2 id="slack-h">Slack</h2>
+            <p>A Slack alert goes to a channel you choose, using Slack's incoming webhooks.</p>
+            <ol>
+              <li>Go to <strong>api.slack.com/apps</strong>, create an app for your workspace, and turn on <strong>Incoming Webhooks</strong>.</li>
+              <li>Choose <strong>Add New Webhook to Workspace</strong>, pick a channel, and copy the webhook URL.</li>
+              <li>In RefreshWatch, open <strong>Phone alerts</strong>, pick <strong>Slack</strong>, and paste the address into <strong>Webhook URL</strong>.</li>
+              <li>Click <strong>Save destination</strong>. Chrome asks to let RefreshWatch send to hooks.slack.com; allow it. Nothing else is granted.</li>
+              <li>Click <strong>Send test</strong> and check the channel. The Slack phone app shows it as a normal message.</li>
+            </ol>
+            <figure>
+              <img src="../img/phone-form-slack.png" width="1424" height="744" loading="lazy" alt="The Phone alerts form for Slack, with a webhook address.">
+              <figcaption>Some workspaces limit who can add apps. If you can't, ask an admin or use ntfy.</figcaption>
+            </figure>
+          </section>
+          <section class="provider" id="generic" aria-labelledby="generic-h">
+            <h2 id="generic-h">Any other app (JSON POST)</h2>
+            <p>Anything that accepts a web request can receive RefreshWatch alerts: a Home Assistant or n8n flow, your own script, or a service such as webhook.site for testing.</p>
+            <ol>
+              <li>Get an <code>https://</code> address from the app that should receive the alert.</li>
+              <li>In RefreshWatch, open <strong>Phone alerts</strong>, pick <strong>Other (JSON POST)</strong>, and paste it into <strong>Address (URL)</strong>.</li>
+              <li>Click <strong>Save destination</strong>. Chrome asks to let RefreshWatch send to that address; allow it. Nothing else is granted.</li>
+              <li>Click <strong>Send test</strong>. The app should receive a request with the <code>test</code> event below.</li>
+            </ol>
+            <p>Every alert is a <code>POST</code> with <code>Content-Type: application/json</code>, no cookies and no other headers. If the receiver needs a key, put it in the address. The body always has these fields:</p>
+            <pre class="code"><code>{
+  "source": "RefreshWatch",
+  "version": "0.2.0",
+  "event": "price",
+  "title": "Price dropped below 120",
+  "pageTitle": "Waxed Field Jacket",
+  "url": "https://shop.example/jacket",
+  "text": "$119.00",
+  "at": "2026-10-24T09:30:00.000Z"
+}</code></pre>
+            <div class="table-wrap"><table class="compare fields">
+              <thead><tr><th scope="col">Field</th><th scope="col">Meaning</th></tr></thead>
+              <tbody>
+                <tr><th scope="row"><code>source</code></th><td>Always <code>"RefreshWatch"</code>.</td></tr>
+                <tr><th scope="row"><code>version</code></th><td>The extension version.</td></tr>
+                <tr><th scope="row"><code>event</code></th><td>One of <code>changed</code>, <code>keyword</code>, <code>price</code>, <code>missing</code> (a picked element wasn't found) or <code>test</code>. These words are always English, so your automation can match them.</td></tr>
+                <tr><th scope="row"><code>title</code></th><td>A short headline in your Chrome language.</td></tr>
+                <tr><th scope="row"><code>pageTitle</code>, <code>url</code></th><td>The watched page. Both are empty for a <code>test</code>.</td></tr>
+                <tr><th scope="row"><code>text</code></th><td>The changed text, up to 300 characters. Left out when <strong>Include the changed text</strong> is off, and for <code>missing</code> and <code>test</code> events, which have none.</td></tr>
+                <tr><th scope="row"><code>at</code></th><td>When it happened, as an ISO 8601 time in UTC.</td></tr>
+              </tbody>
+            </table></div>
+          </section>
+
+          <h2>What gets sent</h2>
+          <div class="callout">
+            <p>An alert contains the title, the page title and address, and, if you leave <strong>Include the changed text</strong> on, up to 300 characters of the changed text. Turn that off if the page text is private.</p>
+            <p>It goes only to the address you entered. That service's own privacy policy applies to what it receives. Remove the destination and nothing is sent.</p>
+            <p>Addresses, tokens and topics stay in Chrome on this computer. They are never shown in the change log or in notifications. See the <a href="../privacy-policy.html">privacy policy</a>.</p>
+          </div>
+
+          <h2>If a test fails</h2>
+          <ul>
+            <li><strong>Check this address.</strong> Copy it again from the app, with nothing before or after it.</li>
+            <li><strong>Permission.</strong> If you pressed <strong>Don't allow</strong>, nothing was saved. Save again and allow the address.</li>
+            <li><strong>Too many alerts.</strong> RefreshWatch sends at most one alert per destination every 10 seconds, so a fast refresh can't flood your phone. Alerts in between are combined into one that arrives when the 10 seconds are up, with a count of the others.</li>
+            <li><strong>Nothing arrives, no error.</strong> Check that <strong>Send to my phone</strong> is on for that tab, and that the destination's switch is on.</li>
+          </ul>
+          <p>Ready to watch something? See the <a href="../price-drop-alert/">price drop alert guide</a> or the <a href="../website-change-alert/">website change alert guide</a>.</p>
+
+          <div class="cta-row">
+            <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=phone-alerts">Add RefreshWatch to Chrome</a>
+            <a class="button button-quiet" href="../website-change-alert/">Website change alert guide</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div>
+          <a class="brand" href="../"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+          <p>Auto refresh and page change alerts for Chrome. Free, no account, and no servers: nothing passes through us.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Guides</strong>
+          <a href="../auto-refresh-chrome/">Auto refresh in Chrome</a>
+          <a href="../website-change-alert/">Website change alerts</a>
+          <a href="../auto-refresh-plus-alternative/">A free alternative</a>
+          <a href="../phone-alerts/">Phone alerts</a>
+          <a href="../price-drop-alert/">Price drop alert</a>
+        </div>
+        <div class="footer-col">
+          <strong>Help</strong>
+          <a href="../support.html">Support and FAQ</a>
+          <a href="../privacy-policy.html">Privacy policy</a>
+        </div>
+        <div class="footer-col">
+          <strong>Get it</strong>
+          <a href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=phone-alerts">Chrome Web Store</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
