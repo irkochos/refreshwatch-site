@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RefreshWatch – Chrome 自动刷新与网页变化提醒</title>
+    <meta name="description" content="让任意 Chrome 标签页定时自动刷新，网页一有变化就提醒你，可以在电脑桌面或手机上接收。可监控某个元素、关键词或价格。免费，无需账号。">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f5f6fb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#13142a" media="(prefers-color-scheme: dark)">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:title" content="RefreshWatch – Chrome 自动刷新与网页变化提醒">
+    <meta property="og:description" content="让任意 Chrome 标签页定时自动刷新，网页一有变化就提醒你，可以在电脑桌面或手机上接收。可监控某个元素、关键词或价格。免费，无需账号。">
+    <meta property="og:url" content="https://refreshwatch.com/zh/">
+    <meta property="og:image" content="https://refreshwatch.com/img/zh/screenshot-2.png">
+    <link rel="canonical" href="https://refreshwatch.com/zh/">
+    <link rel="alternate" hreflang="en" href="https://refreshwatch.com/">
+    <link rel="alternate" hreflang="ja" href="https://refreshwatch.com/ja/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://refreshwatch.com/zh/">
+    <link rel="alternate" hreflang="de" href="https://refreshwatch.com/de/">
+    <link rel="alternate" hreflang="es" href="https://refreshwatch.com/es/">
+    <link rel="alternate" hreflang="fr" href="https://refreshwatch.com/fr/">
+    <link rel="alternate" hreflang="pt-BR" href="https://refreshwatch.com/pt-br/">
+    <link rel="alternate" hreflang="ru" href="https://refreshwatch.com/ru/">
+    <link rel="alternate" hreflang="ar" href="https://refreshwatch.com/ar/">
+    <link rel="alternate" hreflang="x-default" href="https://refreshwatch.com/">
+    <link rel="icon" href="../icon.svg" type="image/svg+xml">
+    <link rel="icon" href="../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="../site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="shell">
+        <a class="brand" href="./"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+        <nav class="site-nav" aria-label="主导航">
+          <a href="../auto-refresh-chrome/" hreflang="en">使用指南</a>
+          <a href="../support.html" hreflang="en">帮助</a>
+          <a href="../privacy-policy.html" hreflang="en">隐私</a>
+        </nav>
+        <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-zh">添加到 Chrome</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="shell">
+          <div>
+            <h1 id="hero-title">刷新交给它，变化不错过。</h1>
+            <p class="lede">RefreshWatch 按设定的间隔重新加载任意 Chrome 标签页，网页一有变化就第一时间提醒你：新的价格、“有货”这样的字样，或是刚空出来的预约名额。</p>
+            <div class="sweep" aria-hidden="true"></div>
+            <div class="hero-actions">
+              <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-zh">免费添加到 Chrome</a>
+              <a class="button button-quiet" href="#how">了解使用方法</a>
+            </div>
+            <p class="hero-note">无需账号，不经过我们的服务器。支持 Chrome 120 及以上版本。</p>
+          </div>
+          <figure>
+            <img class="popup-shot" src="../img/zh/popup-running.png" width="360" height="536" alt="RefreshWatch 弹出窗口：每 10 秒刷新一次，显示距下次刷新的倒计时，目前已刷新 2 次。">
+            <figcaption>真实的弹出窗口，倒计时正在进行。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="features" aria-labelledby="watch-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="watch-title">告诉它要盯住什么</h2>
+            <p>单纯的自动刷新只需选一个间隔。加上监控后，RefreshWatch 会在每次重新加载后比较页面，一有变化就用通知和提示音提醒你。</p>
+          </div>
+          <div class="modes">
+            <div class="mode">
+              <h3>整个页面</h3>
+              <p>可见文字的任何变化都算。开启“忽略变动的数字”，时钟和计数器就不会触发误报。</p>
+            </div>
+            <div class="mode">
+              <h3>单个元素</h3>
+              <p>指向价格、座位图或状态栏。只看这一部分，页面其他地方怎么变都不影响。</p>
+            </div>
+            <div class="mode">
+              <h3>关键词</h3>
+              <p>某个词出现时提醒你，例如“有货”；或在它消失时提醒你，例如“暂无可预约时间”。</p>
+            </div>
+          </div>
+          <figure class="wide-shot">
+            <img src="../img/zh/screenshot-2.png" width="1280" height="800" loading="lazy" alt="在购物网站页面上选择价格：该元素在页面上被框出，弹出窗口显示正在每 5 秒监控 #price。">
+            <figcaption>正在选择要监控的元素。演示商店为虚构。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="phone" aria-labelledby="phone-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="phone-title">手机提醒，还有降价提醒</h2>
+            <p>添加你自己的 ntfy 主题、Discord、Telegram 或 Slack 地址，或任意 Webhook，RefreshWatch 就会把提醒直接发送过去。无需在我们这里注册账号，也不经过我们的服务器。</p>
+            <p><a href="../phone-alerts/" hreflang="en">网站变化时如何在手机上收到通知</a> &middot; <a href="../price-drop-alert/" hreflang="en">Chrome 降价提醒</a> （英文）</p>
+          </div>
+          <figure class="wide-shot">
+            <img src="../img/zh/screenshot-4.png" width="1280" height="800" loading="lazy" alt="“手机提醒”选项卡：已添加 ntfy 和 Discord 两个渠道，测试后显示“已发送。请查看手机。”">
+            <figcaption>两个渠道，其中一个已测试。RefreshWatch 只检查已打开标签页中的网页，所以请保持 Chrome 开启。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section free" aria-labelledby="free-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="free-title">别家收费的功能，这里全部免费</h2>
+            <p>下列每项功能，至少在一款热门的自动刷新或网页监控扩展中需要付费才能使用。在 RefreshWatch 中，它们本来就是扩展的一部分：没有付费版，没有试用期，也无需账号。别家的一些付费功能，例如宏、电子邮件或短信提醒以及云端检查，RefreshWatch 并不提供。</p>
+          </div>
+          <table class="free-table">
+            <thead>
+              <tr><th scope="col">功能</th><th scope="col">能做什么</th><th scope="col">RefreshWatch</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">只监控页面的一部分</th><td>选择任意元素，只在它变化时提醒</td><td class="yes">免费</td></tr>
+              <tr><th scope="row">关键词提醒</th><td>某个词或短语出现或消失时提醒</td><td class="yes">免费</td></tr>
+              <tr><th scope="row">重新加载后点击按钮</th><td>自选按钮和等待时间</td><td class="yes">免费</td></tr>
+              <tr><th scope="row">随机间隔</th><td>在两个数值之间随机，从 1 秒到 24 小时</td><td class="yes">免费</td></tr>
+              <tr><th scope="row">按页面保存设置</th><td>按完整网址、开头匹配或通配符设置规则，自动开始</td><td class="yes">免费</td></tr>
+              <tr><th scope="row">不限监控数量</th><td>标签页和规则想加多少就加多少</td><td class="yes">免费</td></tr>
+              <tr><th scope="row">变化记录</th><td>最近 50 次变化，包括变化前后的文字</td><td class="yes">免费</td></tr>
+            </tbody>
+          </table>
+          <p class="fine">对比对象为 Chrome Web Store 和各厂商价格页面上列出的付费方案，核对日期为 2026 年 10 月 9 日。与某款知名扩展的详细对比，请见<a href="../auto-refresh-plus-alternative/" hreflang="en">替代方案页面（英文）</a>。</p>
+        </div>
+      </section>
+
+      <section class="section privacy-band" aria-labelledby="privacy-title">
+        <div class="shell">
+          <div>
+            <h2 id="privacy-title">什么都不经过我们<span class="pupil" aria-hidden="true"></span></h2>
+            <p>RefreshWatch 在你的电脑上读取和比较网页，它没有自己的服务器。它唯一会发出的，是发送到你自己设置的手机提醒渠道的提醒。</p>
+            <p><a href="../privacy-policy.html" hreflang="en">阅读隐私政策（英文）</a></p>
+          </div>
+          <ul class="privacy-list">
+            <li><strong>无需账号</strong>安装即可使用，没有任何需要注册的东西。</li>
+            <li><strong>没有统计分析、广告或跟踪</strong>除了你设置的手机提醒之外，不发出任何网络请求。</li>
+            <li><strong>逐个网站授权</strong>单纯的自动刷新不需要网站访问权限。为某个网站开启监控时，Chrome 只会就这一个网站征求你的同意。</li>
+            <li><strong>数据保存在本地</strong>规则、设置和变化记录都保存在这台电脑的 Chrome 中，移除扩展后即被删除。</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="how" aria-labelledby="how-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="how-title">从打开标签页到收到提醒，只需三步</h2>
+          </div>
+          <ol class="steps">
+            <li><h3>选择间隔</h3><p>在标签页上点击 RefreshWatch 图标，从 5 秒到 15 分钟中选择，也可以自定义时间或设置随机范围。</p></li>
+            <li><h3>选择监控内容</h3><p>整个页面、你指定的某个元素，或者关键词。什么都不选，就是单纯的自动刷新。</p></li>
+            <li><h3>收到提醒</h3><p>变化一出现，你就会收到通知和提示音，刷新随即停止。保存为规则，下次打开时就会自动开始。</p></li>
+          </ol>
+          <figure class="wide-shot">
+            <img src="../img/zh/screenshot-3.png" width="1280" height="800" loading="lazy" alt="关键词匹配后的弹出窗口：关键词为“有货”，显示网页已变化因此停止；旁边的商店页面现在显示“有货”。">
+            <figcaption>关键词提醒：第三次刷新时出现了“有货”，RefreshWatch 随即停止。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="shell">
+          <div>
+            <h2 id="closing-title">不用再一遍遍点刷新了</h2>
+            <p>在 Chrome Web Store 免费获取，支持英语、阿拉伯语、德语、西班牙语、法语、日语、巴西葡萄牙语、简体中文和俄语。</p>
+          </div>
+          <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-zh">添加到 Chrome</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div>
+          <a class="brand" href="./"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+          <p>Chrome 自动刷新与网页变化提醒。免费，无需账号，没有服务器：什么都不经过我们。</p>
+        </div>
+        <div class="footer-col">
+          <strong>使用指南（英文）</strong>
+          <a href="../auto-refresh-chrome/" hreflang="en">在 Chrome 中自动刷新</a>
+          <a href="../website-change-alert/" hreflang="en">网站变化提醒</a>
+          <a href="../auto-refresh-plus-alternative/" hreflang="en">免费的替代方案</a>
+          <a href="../phone-alerts/" hreflang="en">手机提醒</a>
+          <a href="../price-drop-alert/" hreflang="en">降价提醒</a>
+        </div>
+        <div class="footer-col">
+          <strong>帮助（英文）</strong>
+          <a href="../support.html" hreflang="en">帮助与常见问题</a>
+          <a href="../privacy-policy.html" hreflang="en">隐私政策</a>
+        </div>
+        <div class="footer-col">
+          <strong>获取</strong>
+          <a href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-zh">Chrome Web Store</a>
+        </div>
+        <nav class="footer-langs" aria-label="语言">
+          <ul>
+            <li><a href="../" hreflang="en" lang="en">English</a></li>
+            <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
+            <li><a href="./" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></li>
+            <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
+            <li><a href="../es/" hreflang="es" lang="es">Español</a></li>
+            <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
+            <li><a href="../pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+            <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
+            <li><a href="../ar/" hreflang="ar" lang="ar" dir="rtl">العربية</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

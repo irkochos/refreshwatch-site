@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://refreshwatch.com/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://refreshwatch.com/ja/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://refreshwatch.com/zh/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://refreshwatch.com/de/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://refreshwatch.com/es/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://refreshwatch.com/fr/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://refreshwatch.com/pt-br/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://refreshwatch.com/ru/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://refreshwatch.com/ar/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://refreshwatch.com/auto-refresh-chrome/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://refreshwatch.com/website-change-alert/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://refreshwatch.com/phone-alerts/</loc><lastmod>2026-10-24</lastmod></url>

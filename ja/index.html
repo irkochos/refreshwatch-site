@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RefreshWatch – Chrome のページ自動更新＆変更通知</title>
+    <meta name="description" content="Chrome のタブをタイマーで自動更新し、ページが変わったらすぐにお知らせ。通知はパソコンにもスマホにも届きます。要素、キーワード、価格を監視できます。無料、アカウント不要。">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f5f6fb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#13142a" media="(prefers-color-scheme: dark)">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:title" content="RefreshWatch – Chrome のページ自動更新＆変更通知">
+    <meta property="og:description" content="Chrome のタブをタイマーで自動更新し、ページが変わったらすぐにお知らせ。通知はパソコンにもスマホにも届きます。要素、キーワード、価格を監視できます。無料、アカウント不要。">
+    <meta property="og:url" content="https://refreshwatch.com/ja/">
+    <meta property="og:image" content="https://refreshwatch.com/img/ja/screenshot-2.png">
+    <link rel="canonical" href="https://refreshwatch.com/ja/">
+    <link rel="alternate" hreflang="en" href="https://refreshwatch.com/">
+    <link rel="alternate" hreflang="ja" href="https://refreshwatch.com/ja/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://refreshwatch.com/zh/">
+    <link rel="alternate" hreflang="de" href="https://refreshwatch.com/de/">
+    <link rel="alternate" hreflang="es" href="https://refreshwatch.com/es/">
+    <link rel="alternate" hreflang="fr" href="https://refreshwatch.com/fr/">
+    <link rel="alternate" hreflang="pt-BR" href="https://refreshwatch.com/pt-br/">
+    <link rel="alternate" hreflang="ru" href="https://refreshwatch.com/ru/">
+    <link rel="alternate" hreflang="ar" href="https://refreshwatch.com/ar/">
+    <link rel="alternate" hreflang="x-default" href="https://refreshwatch.com/">
+    <link rel="icon" href="../icon.svg" type="image/svg+xml">
+    <link rel="icon" href="../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="../site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へスキップ</a>
+    <header class="site-header">
+      <div class="shell">
+        <a class="brand" href="./"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+        <nav class="site-nav" aria-label="メイン">
+          <a href="../auto-refresh-chrome/" hreflang="en">ガイド</a>
+          <a href="../support.html" hreflang="en">サポート</a>
+          <a href="../privacy-policy.html" hreflang="en">プライバシー</a>
+        </nav>
+        <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ja">Chrome に追加</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="shell">
+          <div>
+            <h1 id="hero-title">更新はおまかせ。変化は見逃さない。</h1>
+            <p class="lede">RefreshWatch は Chrome のタブをタイマーで再読み込みし、ページが変わった瞬間にお知らせします。新しい価格、「在庫あり」の表示、空いた予約枠など。</p>
+            <div class="sweep" aria-hidden="true"></div>
+            <div class="hero-actions">
+              <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ja">無料で Chrome に追加</a>
+              <a class="button button-quiet" href="#how">使い方を見る</a>
+            </div>
+            <p class="hero-note">アカウント不要。私たちのサーバーも使いません。Chrome 120 以降に対応。</p>
+          </div>
+          <figure>
+            <img class="popup-shot" src="../img/ja/popup-running.png" width="360" height="536" alt="RefreshWatch のポップアップ。10 秒ごとに自動更新中で、次の更新までのカウントダウンと、これまでの更新回数 2 回が表示されています。">
+            <figcaption>実際のポップアップ。カウントダウンの途中です。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="features" aria-labelledby="watch-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="watch-title">何を監視するか、指定するだけ</h2>
+            <p>単純な自動更新なら、間隔を選ぶだけで使えます。監視を追加すると、RefreshWatch は再読み込みのたびにページを比較し、変化があれば通知とサウンドでお知らせします。</p>
+          </div>
+          <div class="modes">
+            <div class="mode">
+              <h3>ページ全体</h3>
+              <p>表示テキストのあらゆる変化を検知します。「数値だけの変化は無視」をオンにすれば、時計やカウンターで誤って通知されることはありません。</p>
+            </div>
+            <div class="mode">
+              <h3>1 つの要素</h3>
+              <p>価格、座席表、ステータス表示などを指定します。対象はその部分だけなので、ページのほかの場所が変わっても反応しません。</p>
+            </div>
+            <div class="mode">
+              <h3>キーワード</h3>
+              <p>「在庫あり」のような言葉が現れたとき、または「予約可能な日時がありません」のような表示が消えたときに通知します。</p>
+            </div>
+          </div>
+          <figure class="wide-shot">
+            <img src="../img/ja/screenshot-2.png" width="1280" height="800" loading="lazy" alt="ショップのページで価格を選んでいる画面。要素がページ上で枠で囲まれ、ポップアップには #price を 5 秒ごとに監視中と表示されています。">
+            <figcaption>監視する要素を選んでいるところ。デモショップは架空のものです。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="phone" aria-labelledby="phone-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="phone-title">スマホへの通知と、値下がりアラート</h2>
+            <p>自分の ntfy トピック、Discord、Telegram、Slack のアドレス、または任意の Webhook を追加すると、RefreshWatch がそこへ直接通知を送ります。私たちのアカウントは不要で、私たちのサーバーを経由することもありません。</p>
+            <p><a href="../phone-alerts/" hreflang="en">ウェブサイトが変わったらスマホに通知する方法</a> &middot; <a href="../price-drop-alert/" hreflang="en">Chrome で値下がりアラートを使う</a> （英語）</p>
+          </div>
+          <figure class="wide-shot">
+            <img src="../img/ja/screenshot-4.png" width="1280" height="800" loading="lazy" alt="「スマホ通知」タブ。ntfy と Discord の 2 つの送信先があり、テスト後に「送信しました。スマホを確認してください。」と表示されています。">
+            <figcaption>2 つの送信先と、そのうち 1 つのテスト結果。RefreshWatch が確認するのは開いているタブのページだけなので、Chrome は開いたままにしてください。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section free" aria-labelledby="free-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="free-title">ほかの拡張機能では有料の機能も、すべて無料</h2>
+            <p>以下の機能はどれも、人気の自動更新やページ監視の拡張機能の少なくとも 1 つでは有料プランでしか使えません。RefreshWatch では最初から含まれていて、有料プランも試用期間もアカウントもありません。なお、マクロ、メールや SMS での通知、クラウドでのチェックなど、ほかで有料になっている機能の一部は、RefreshWatch にはそもそもありません。</p>
+          </div>
+          <table class="free-table">
+            <thead>
+              <tr><th scope="col">機能</th><th scope="col">できること</th><th scope="col">RefreshWatch</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">ページの一部だけを監視</th><td>好きな要素を選び、その部分が変わったときだけ通知</td><td class="yes">無料</td></tr>
+              <tr><th scope="row">キーワード通知</th><td>言葉やフレーズが現れたとき、または消えたとき</td><td class="yes">無料</td></tr>
+              <tr><th scope="row">再読み込み後にボタンをクリック</th><td>クリックするボタンと待ち時間を指定</td><td class="yes">無料</td></tr>
+              <tr><th scope="row">ランダム間隔</th><td>2 つの値の間でランダムに。1 秒から 24 時間まで</td><td class="yes">無料</td></tr>
+              <tr><th scope="row">ページごとに設定を保存</th><td>完全一致の URL、前方一致、ワイルドカードのルールで自動スタート</td><td class="yes">無料</td></tr>
+              <tr><th scope="row">監視数の上限なし</th><td>タブもルールも好きなだけ</td><td class="yes">無料</td></tr>
+              <tr><th scope="row">変更履歴</th><td>直近 50 件の変更を、変更前後のテキストとともに記録</td><td class="yes">無料</td></tr>
+            </tbody>
+          </table>
+          <p class="fine">Chrome ウェブストアと各社の料金ページに掲載されている有料プランとの比較です（2026 年 10 月 9 日時点）。ある有名な拡張機能との詳しい比較は<a href="../auto-refresh-plus-alternative/" hreflang="en">代替ツールのページ（英語）</a>で紹介しています。</p>
+        </div>
+      </section>
+
+      <section class="section privacy-band" aria-labelledby="privacy-title">
+        <div class="shell">
+          <div>
+            <h2 id="privacy-title">データは私たちを経由しません<span class="pupil" aria-hidden="true"></span></h2>
+            <p>RefreshWatch はページの読み取りと比較をすべてお使いのパソコン上で行います。独自のサーバーは持っていません。外部に送るのは、あなたが自分で設定したスマホ通知の送信先への通知だけです。</p>
+            <p><a href="../privacy-policy.html" hreflang="en">プライバシーポリシーを読む（英語）</a></p>
+          </div>
+          <ul class="privacy-list">
+            <li><strong>アカウント不要</strong>インストールしたらすぐに使えます。登録するものは何もありません。</li>
+            <li><strong>分析・広告・トラッキングなし</strong>ネットワーク通信は、設定したスマホ通知の送信以外に一切ありません。</li>
+            <li><strong>サイトへのアクセスは 1 サイトずつ</strong>単純な自動更新にはサイトへのアクセスは不要です。あるサイトで監視をオンにすると、Chrome がそのサイトについてだけ許可を求めます。</li>
+            <li><strong>データはパソコン内に保存</strong>ルール、設定、変更履歴はこのパソコンの Chrome 内に保存され、拡張機能を削除すると消去されます。</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="how" aria-labelledby="how-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="how-title">タブを開いてから通知まで、3 ステップ</h2>
+          </div>
+          <ol class="steps">
+            <li><h3>間隔を選ぶ</h3><p>タブで RefreshWatch のアイコンをクリックし、5 秒〜15 分、カスタム時間、またはランダムな範囲から選びます。</p></li>
+            <li><h3>監視する対象を選ぶ</h3><p>ページ全体、指定した 1 つの要素、またはキーワード。何も選ばなければ、単純な自動更新になります。</p></li>
+            <li><h3>通知を受け取る</h3><p>変化があると通知とサウンドでお知らせし、自動更新は止まります。ルールとして保存しておけば、次回からは自動で始まります。</p></li>
+          </ol>
+          <figure class="wide-shot">
+            <img src="../img/ja/screenshot-3.png" width="1280" height="800" loading="lazy" alt="キーワードが一致した後のポップアップ。キーワード「在庫あり」で、ページが変更されたため停止したと表示され、隣のショップのページには「在庫あり」と表示されています。">
+            <figcaption>キーワード通知の例。3 回目の更新で「在庫あり」が表示され、RefreshWatch が停止しました。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="shell">
+          <div>
+            <h2 id="closing-title">もう、更新ボタンを押し続けなくていい</h2>
+            <p>Chrome ウェブストアで無料公開中。対応言語：英語、アラビア語、ドイツ語、スペイン語、フランス語、日本語、ポルトガル語（ブラジル）、中国語（簡体字）、ロシア語。</p>
+          </div>
+          <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ja">Chrome に追加</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div>
+          <a class="brand" href="./"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+          <p>Chrome のページ自動更新と変更通知。無料、アカウント不要、サーバーなし。データが私たちを経由することはありません。</p>
+        </div>
+        <div class="footer-col">
+          <strong>ガイド（英語）</strong>
+          <a href="../auto-refresh-chrome/" hreflang="en">Chrome でページを自動更新</a>
+          <a href="../website-change-alert/" hreflang="en">ウェブサイトの変更通知</a>
+          <a href="../auto-refresh-plus-alternative/" hreflang="en">無料の代替ツール</a>
+          <a href="../phone-alerts/" hreflang="en">スマホ通知</a>
+          <a href="../price-drop-alert/" hreflang="en">値下がりアラート</a>
+        </div>
+        <div class="footer-col">
+          <strong>ヘルプ（英語）</strong>
+          <a href="../support.html" hreflang="en">サポートとよくある質問</a>
+          <a href="../privacy-policy.html" hreflang="en">プライバシーポリシー</a>
+        </div>
+        <div class="footer-col">
+          <strong>入手する</strong>
+          <a href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ja">Chrome ウェブストア</a>
+        </div>
+        <nav class="footer-langs" aria-label="言語">
+          <ul>
+            <li><a href="../" hreflang="en" lang="en">English</a></li>
+            <li><a href="./" hreflang="ja" lang="ja" aria-current="page">日本語</a></li>
+            <li><a href="../zh/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+            <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
+            <li><a href="../es/" hreflang="es" lang="es">Español</a></li>
+            <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
+            <li><a href="../pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+            <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
+            <li><a href="../ar/" hreflang="ar" lang="ar" dir="rtl">العربية</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

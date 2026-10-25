@@ -79,9 +79,11 @@ h1 { font-size: clamp(2.3rem, 1.5rem + 3.6vw, 4.4rem); font-weight: 700; letter-
 h2 { font-size: clamp(1.7rem, 1.3rem + 1.6vw, 2.6rem); font-weight: 700; }
 h3 { font-size: 1.2rem; font-weight: 650; letter-spacing: -0.01em; }
 p { margin: 0; text-wrap: pretty; }
+/* Japanese headings break between phrases, not inside words (Chrome 119+). */
+:lang(ja) :is(h1, h2, h3) { word-break: auto-phrase; }
 code { font-family: var(--font-code); font-size: 0.9em; background: var(--accent-wash); padding: 0.1em 0.35em; border-radius: 4px; }
 
-.skip-link { position: absolute; left: 12px; top: -60px; padding: 10px 14px; background: var(--accent); color: var(--accent-ink); border-radius: 6px; z-index: 10; }
+.skip-link { position: absolute; inset-inline-start: 12px; top: -60px; padding: 10px 14px; background: var(--accent); color: var(--accent-ink); border-radius: 6px; z-index: 10; }
 .skip-link:focus { top: 12px; }
 
 .shell { width: min(100% - 2 * var(--gutter), var(--wide)); margin-inline: auto; }
@@ -118,6 +120,12 @@ code { font-family: var(--font-code); font-size: 0.9em; background: var(--accent
 .footer-col strong { color: var(--text); font-size: 0.95rem; }
 .footer-col a { color: var(--muted); text-decoration: none; }
 .footer-col a:hover { color: var(--text); text-decoration: underline; }
+/* The home page in each UI language, by its own name. */
+.footer-langs { grid-column: 1 / -1; padding-block-start: 20px; border-block-start: 1px solid var(--line); }
+.footer-langs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 20px; }
+.footer-langs a { color: var(--muted); text-decoration: none; }
+.footer-langs a:hover { color: var(--text); text-decoration: underline; }
+.footer-langs a[aria-current="page"] { color: var(--text); font-weight: 600; }
 
 /* ---------- home: hero ---------- */
 
@@ -136,9 +144,10 @@ code { font-family: var(--font-code); font-size: 0.9em; background: var(--accent
   animation: drain 10s linear infinite;
 }
 .sweep::before {
-  content: ""; position: absolute; z-index: 1; top: 50%; right: 0; width: 6px; height: 6px; margin-top: -3px;
+  content: ""; position: absolute; z-index: 1; top: 50%; inset-inline-end: 0; width: 6px; height: 6px; margin-top: -3px;
   border-radius: 50%; background: var(--amber);
 }
+[dir="rtl"] .sweep::after { transform-origin: right center; }
 @keyframes drain { from { transform: scaleX(1); } to { transform: scaleX(0); } }
 @media (prefers-reduced-motion: reduce) { .sweep::after { animation: none; } }
 
@@ -153,7 +162,7 @@ code { font-family: var(--font-code); font-size: 0.9em; background: var(--accent
 .section-head p { margin-top: 16px; color: var(--muted); font-size: 1.1rem; }
 
 .modes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin-top: 44px; border-top: 2px solid var(--text); }
-.mode { padding: 22px 28px 4px 0; }
+.mode { padding-block: 22px 4px; padding-inline: 0 28px; }
 .mode + .mode { padding-inline-start: 28px; border-inline-start: 1px solid var(--line); }
 .mode p { margin-top: 8px; color: var(--muted); }
 .wide-shot { margin: 44px 0 0; }
@@ -162,7 +171,7 @@ code { font-family: var(--font-code); font-size: 0.9em; background: var(--accent
 
 .free { background: var(--surface); border-block: 1px solid var(--line); }
 .free-table { width: 100%; margin-top: 40px; border-collapse: collapse; font-size: 1rem; }
-.free-table th, .free-table td { padding: 14px 12px 14px 0; text-align: start; vertical-align: top; border-bottom: 1px solid var(--line); }
+.free-table th, .free-table td { padding-block: 14px; padding-inline: 0 12px; text-align: start; vertical-align: top; border-bottom: 1px solid var(--line); }
 .free-table thead th { font-size: 0.9rem; color: var(--muted); font-weight: 600; border-bottom: 2px solid var(--text); }
 .free-table tbody th { font-weight: 600; width: 34%; }
 .free-table td { color: var(--muted); }

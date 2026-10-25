@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RefreshWatch – автообновление страниц и оповещения об изменениях в Chrome</title>
+    <meta name="description" content="Автообновление любой вкладки Chrome по таймеру и оповещение, как только страница изменится, на компьютере или на телефоне. Следите за элементом, ключевым словом или ценой. Бесплатно, без аккаунта.">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f5f6fb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#13142a" media="(prefers-color-scheme: dark)">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:title" content="RefreshWatch – автообновление страниц и оповещения об изменениях в Chrome">
+    <meta property="og:description" content="Автообновление любой вкладки Chrome по таймеру и оповещение, как только страница изменится, на компьютере или на телефоне. Следите за элементом, ключевым словом или ценой. Бесплатно, без аккаунта.">
+    <meta property="og:url" content="https://refreshwatch.com/ru/">
+    <meta property="og:image" content="https://refreshwatch.com/img/ru/screenshot-2.png">
+    <link rel="canonical" href="https://refreshwatch.com/ru/">
+    <link rel="alternate" hreflang="en" href="https://refreshwatch.com/">
+    <link rel="alternate" hreflang="ja" href="https://refreshwatch.com/ja/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://refreshwatch.com/zh/">
+    <link rel="alternate" hreflang="de" href="https://refreshwatch.com/de/">
+    <link rel="alternate" hreflang="es" href="https://refreshwatch.com/es/">
+    <link rel="alternate" hreflang="fr" href="https://refreshwatch.com/fr/">
+    <link rel="alternate" hreflang="pt-BR" href="https://refreshwatch.com/pt-br/">
+    <link rel="alternate" hreflang="ru" href="https://refreshwatch.com/ru/">
+    <link rel="alternate" hreflang="ar" href="https://refreshwatch.com/ar/">
+    <link rel="alternate" hreflang="x-default" href="https://refreshwatch.com/">
+    <link rel="icon" href="../icon.svg" type="image/svg+xml">
+    <link rel="icon" href="../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="../site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержанию</a>
+    <header class="site-header">
+      <div class="shell">
+        <a class="brand" href="./"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+        <nav class="site-nav" aria-label="Основное меню">
+          <a href="../auto-refresh-chrome/" hreflang="en">Руководства</a>
+          <a href="../support.html" hreflang="en">Поддержка</a>
+          <a href="../privacy-policy.html" hreflang="en">Конфиденциальность</a>
+        </nav>
+        <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ru">Установить в Chrome</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="shell">
+          <div>
+            <h1 id="hero-title">Страницу обновит. Изменение не пропустит.</h1>
+            <p class="lede">RefreshWatch перезагружает любую вкладку Chrome по таймеру и сообщает в тот самый момент, когда страница меняется: новая цена, слово «В наличии», освободившееся окно для записи.</p>
+            <div class="sweep" aria-hidden="true"></div>
+            <div class="hero-actions">
+              <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ru">Установить бесплатно</a>
+              <a class="button button-quiet" href="#how">Как это работает</a>
+            </div>
+            <p class="hero-note">Без аккаунта. Без наших серверов. Для Chrome 120 и новее.</p>
+          </div>
+          <figure>
+            <img class="popup-shot" src="../img/ru/popup-running.png" width="360" height="600" alt="Всплывающее окно RefreshWatch: обновление каждые 10 секунд, обратный отсчёт до следующего обновления, уже 2 обновления.">
+            <figcaption>Настоящее всплывающее окно во время отсчёта.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="features" aria-labelledby="watch-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="watch-title">Укажите, за чем следить</h2>
+            <p>Для простого автообновления достаточно выбрать интервал. Добавьте отслеживание, и RefreshWatch будет сравнивать страницу после каждой перезагрузки, а при изменении сообщит уведомлением и звуком.</p>
+          </div>
+          <div class="modes">
+            <div class="mode">
+              <h3>Вся страница</h3>
+              <p>Любое изменение видимого текста. Включите «Игнорировать меняющиеся числа», чтобы часы и счётчики не вызывали ложных срабатываний.</p>
+            </div>
+            <div class="mode">
+              <h3>Один элемент</h3>
+              <p>Укажите цену, схему зала или строку статуса. Учитывается только эта часть, а остальная страница может меняться как угодно.</p>
+            </div>
+            <div class="mode">
+              <h3>Ключевое слово</h3>
+              <p>Оповещение, когда появится слово, например «В наличии», или исчезнет, например «Нет свободных мест».</p>
+            </div>
+          </div>
+          <figure class="wide-shot">
+            <img src="../img/ru/screenshot-2.png" width="1280" height="800" loading="lazy" alt="Выбор цены на странице магазина: элемент обведён на странице, а во всплывающем окне видно, что #price отслеживается каждые 5 секунд.">
+            <figcaption>Выбор элемента для отслеживания. Демо-магазин вымышленный.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="phone" aria-labelledby="phone-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="phone-title">Оповещения на телефон и о снижении цены</h2>
+            <p>Добавьте свою тему ntfy, адрес Discord, Telegram или Slack либо любой вебхук, и RefreshWatch будет отправлять оповещения прямо туда. Никакого аккаунта у нас, и ничего не проходит через наши серверы.</p>
+            <p><a href="../phone-alerts/" hreflang="en">Уведомление на телефон, когда меняется сайт</a> &middot; <a href="../price-drop-alert/" hreflang="en">Оповещение о снижении цены в Chrome</a> (на английском)</p>
+          </div>
+          <figure class="wide-shot">
+            <img src="../img/ru/screenshot-4.png" width="1280" height="800" loading="lazy" alt="Вкладка «Оповещения на телефон» с двумя получателями, ntfy и Discord, и надписью «Отправлено. Проверьте телефон.» после теста.">
+            <figcaption>Два получателя, один уже проверен. RefreshWatch проверяет только страницы в открытых вкладках, поэтому не закрывайте Chrome.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section free" aria-labelledby="free-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="free-title">Бесплатно: то, за что другие расширения берут деньги</h2>
+            <p>Каждая из этих функций хотя бы в одном популярном расширении для автообновления или отслеживания страниц доступна только на платном тарифе. В RefreshWatch это просто часть расширения: без платной версии, пробного периода и аккаунта. А некоторых платных дополнений других расширений, например макросов, оповещений по почте или SMS и облачных проверок, в RefreshWatch нет вовсе.</p>
+          </div>
+          <table class="free-table">
+            <thead>
+              <tr><th scope="col">Функция</th><th scope="col">Что вы получаете</th><th scope="col">RefreshWatch</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Отслеживание части страницы</th><td>Выберите любой элемент: оповещение придёт, только когда он изменится</td><td class="yes">Бесплатно</td></tr>
+              <tr><th scope="row">Оповещения по ключевому слову</th><td>Слово или фраза появляется или исчезает</td><td class="yes">Бесплатно</td></tr>
+              <tr><th scope="row">Клик по кнопке после перезагрузки</th><td>Выберите кнопку и время ожидания</td><td class="yes">Бесплатно</td></tr>
+              <tr><th scope="row">Случайный интервал</th><td>Любое значение между двумя числами, от 1 секунды до 24 часов</td><td class="yes">Бесплатно</td></tr>
+              <tr><th scope="row">Сохранённые настройки для страниц</th><td>Правила по точному адресу, началу адреса или шаблону, которые запускаются сами</td><td class="yes">Бесплатно</td></tr>
+              <tr><th scope="row">Без ограничений</th><td>Сколько угодно вкладок и правил</td><td class="yes">Бесплатно</td></tr>
+              <tr><th scope="row">Журнал изменений</th><td>Последние 50 изменений с текстом до и после</td><td class="yes">Бесплатно</td></tr>
+            </tbody>
+          </table>
+          <p class="fine">Сравнение с платными тарифами, указанными в Chrome Web Store и на страницах с ценами разработчиков, по состоянию на 9 октября 2026 года. Сравнение с одним известным расширением — на <a href="../auto-refresh-plus-alternative/" hreflang="en">странице об альтернативе (на английском)</a>.</p>
+        </div>
+      </section>
+
+      <section class="section privacy-band" aria-labelledby="privacy-title">
+        <div class="shell">
+          <div>
+            <h2 id="privacy-title">Ничего не проходит через нас<span class="pupil" aria-hidden="true"></span></h2>
+            <p>RefreshWatch читает и сравнивает страницы на вашем компьютере. Собственного сервера у него нет. Единственное, что он отправляет, — это оповещение, и только получателю на телефоне, которого вы настроили сами.</p>
+            <p><a href="../privacy-policy.html" hreflang="en">Политика конфиденциальности (на английском)</a></p>
+          </div>
+          <ul class="privacy-list">
+            <li><strong>Без аккаунта</strong>Установите и пользуйтесь. Регистрироваться не нужно.</li>
+            <li><strong>Без аналитики, рекламы и слежки</strong>Никаких сетевых запросов, кроме оповещений на телефон, которые вы настроили.</li>
+            <li><strong>Доступ к сайтам — по одному</strong>Для простого автообновления доступ к сайтам не нужен. Когда вы включаете отслеживание на сайте, Chrome спрашивает разрешение только для этого сайта.</li>
+            <li><strong>Хранится на вашем компьютере</strong>Правила, настройки и журнал изменений остаются в Chrome на этом компьютере и удаляются вместе с расширением.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="how" aria-labelledby="how-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="how-title">Три шага от открытой вкладки до оповещения</h2>
+          </div>
+          <ol class="steps">
+            <li><h3>Выберите интервал</h3><p>Нажмите на значок RefreshWatch во вкладке. Выберите от 5 с до 15 мин, своё время или случайный диапазон.</p></li>
+            <li><h3>Выберите, за чем следить</h3><p>Вся страница, элемент, на который вы укажете, или ключевое слово. Или ничего — для простого автообновления.</p></li>
+            <li><h3>Получите оповещение</h3><p>Когда изменение произойдёт, вы получите уведомление и звук, а обновление остановится. Сохраните настройки как правило, и в следующий раз всё запустится само.</p></li>
+          </ol>
+          <figure class="wide-shot">
+            <img src="../img/ru/screenshot-3.png" width="1280" height="800" loading="lazy" alt="Всплывающее окно после совпадения по ключевому слову «В наличии»: обновление остановлено, потому что страница изменилась; рядом страница магазина, где теперь написано «В наличии».">
+            <figcaption>Оповещение по ключевому слову: «В наличии» появилось при третьем обновлении, и RefreshWatch остановился.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="shell">
+          <div>
+            <h2 id="closing-title">Хватит нажимать «Обновить»</h2>
+            <p>Бесплатно в Chrome Web Store, на английском, арабском, немецком, испанском, французском, японском, бразильском португальском, упрощённом китайском и русском.</p>
+          </div>
+          <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ru">Установить в Chrome</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div>
+          <a class="brand" href="./"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+          <p>Автообновление страниц и оповещения об изменениях для Chrome. Бесплатно, без аккаунта и без серверов: ничего не проходит через нас.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Руководства (на английском)</strong>
+          <a href="../auto-refresh-chrome/" hreflang="en">Автообновление в Chrome</a>
+          <a href="../website-change-alert/" hreflang="en">Оповещения об изменениях на сайтах</a>
+          <a href="../auto-refresh-plus-alternative/" hreflang="en">Бесплатная альтернатива</a>
+          <a href="../phone-alerts/" hreflang="en">Оповещения на телефон</a>
+          <a href="../price-drop-alert/" hreflang="en">Оповещение о снижении цены</a>
+        </div>
+        <div class="footer-col">
+          <strong>Помощь (на английском)</strong>
+          <a href="../support.html" hreflang="en">Поддержка и FAQ</a>
+          <a href="../privacy-policy.html" hreflang="en">Политика конфиденциальности</a>
+        </div>
+        <div class="footer-col">
+          <strong>Установить</strong>
+          <a href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ru">Chrome Web Store</a>
+        </div>
+        <nav class="footer-langs" aria-label="Язык">
+          <ul>
+            <li><a href="../" hreflang="en" lang="en">English</a></li>
+            <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
+            <li><a href="../zh/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+            <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
+            <li><a href="../es/" hreflang="es" lang="es">Español</a></li>
+            <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
+            <li><a href="../pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+            <li><a href="./" hreflang="ru" lang="ru" aria-current="page">Русский</a></li>
+            <li><a href="../ar/" hreflang="ar" lang="ar" dir="rtl">العربية</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

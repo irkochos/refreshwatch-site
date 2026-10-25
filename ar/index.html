@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RefreshWatch – تحديث تلقائي للصفحات وتنبيهات بتغيّرها في Chrome</title>
+    <meta name="description" content="حدّث أي تبويب في Chrome تلقائيًا وفق مؤقت، وتلقَّ تنبيهًا فور تغيّر الصفحة على الحاسوب أو الهاتف. راقب عنصرًا أو كلمة مفتاحية أو سعرًا. مجاني ودون حساب.">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f5f6fb" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#13142a" media="(prefers-color-scheme: dark)">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_AR">
+    <meta property="og:title" content="RefreshWatch – تحديث تلقائي للصفحات وتنبيهات بتغيّرها في Chrome">
+    <meta property="og:description" content="حدّث أي تبويب في Chrome تلقائيًا وفق مؤقت، وتلقَّ تنبيهًا فور تغيّر الصفحة على الحاسوب أو الهاتف. راقب عنصرًا أو كلمة مفتاحية أو سعرًا. مجاني ودون حساب.">
+    <meta property="og:url" content="https://refreshwatch.com/ar/">
+    <meta property="og:image" content="https://refreshwatch.com/img/ar/screenshot-2.png">
+    <link rel="canonical" href="https://refreshwatch.com/ar/">
+    <link rel="alternate" hreflang="en" href="https://refreshwatch.com/">
+    <link rel="alternate" hreflang="ja" href="https://refreshwatch.com/ja/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://refreshwatch.com/zh/">
+    <link rel="alternate" hreflang="de" href="https://refreshwatch.com/de/">
+    <link rel="alternate" hreflang="es" href="https://refreshwatch.com/es/">
+    <link rel="alternate" hreflang="fr" href="https://refreshwatch.com/fr/">
+    <link rel="alternate" hreflang="pt-BR" href="https://refreshwatch.com/pt-br/">
+    <link rel="alternate" hreflang="ru" href="https://refreshwatch.com/ru/">
+    <link rel="alternate" hreflang="ar" href="https://refreshwatch.com/ar/">
+    <link rel="alternate" hreflang="x-default" href="https://refreshwatch.com/">
+    <link rel="icon" href="../icon.svg" type="image/svg+xml">
+    <link rel="icon" href="../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="../site.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+    <header class="site-header">
+      <div class="shell">
+        <a class="brand" href="./"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+        <nav class="site-nav" aria-label="القائمة الرئيسية">
+          <a href="../auto-refresh-chrome/" hreflang="en">الأدلة</a>
+          <a href="../support.html" hreflang="en">الدعم</a>
+          <a href="../privacy-policy.html" hreflang="en">الخصوصية</a>
+        </nav>
+        <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ar">أضِف إلى Chrome</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="shell">
+          <div>
+            <h1 id="hero-title">يتولّى التحديث، ولا يفوتك أي تغيير.</h1>
+            <p class="lede">يعيد RefreshWatch تحميل أي تبويب في Chrome وفق مؤقت، وينبّهك لحظة تغيّر الصفحة: سعر جديد، أو كلمة مثل «متوفر»، أو موعد أصبح شاغرًا.</p>
+            <div class="sweep" aria-hidden="true"></div>
+            <div class="hero-actions">
+              <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ar">أضِفه إلى Chrome مجانًا</a>
+              <a class="button button-quiet" href="#how">طريقة العمل</a>
+            </div>
+            <p class="hero-note">دون حساب، ودون خوادم لنا. يعمل على Chrome 120 والإصدارات الأحدث.</p>
+          </div>
+          <figure>
+            <img class="popup-shot" src="../img/ar/popup-running.png" width="360" height="536" alt="النافذة المنبثقة لـ RefreshWatch: التحديث يعمل كل 10 ثوانٍ، مع عدّاد تنازلي حتى التحديث التالي، وقد تمّ التحديث مرتين حتى الآن.">
+            <figcaption>النافذة المنبثقة الحقيقية أثناء العدّ التنازلي.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="features" aria-labelledby="watch-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="watch-title">أخبره بما يراقبه</h2>
+            <p>للتحديث التلقائي البسيط يكفي أن تختار فترة زمنية. أضِف مراقبة، وسيقارن RefreshWatch الصفحة بعد كل إعادة تحميل، ثم ينبّهك بإشعار وصوت.</p>
+          </div>
+          <div class="modes">
+            <div class="mode">
+              <h3>الصفحة كاملة</h3>
+              <p>أي تغيير في النص الظاهر. فعّل «تجاهل الأرقام المتغيّرة» حتى لا تتسبب الساعات والعدّادات في تنبيهات كاذبة.</p>
+            </div>
+            <div class="mode">
+              <h3>عنصر واحد</h3>
+              <p>أشِر إلى سعر أو خريطة مقاعد أو سطر حالة. هذا الجزء وحده هو المهم، ويمكن لبقية الصفحة أن تتغيّر كما تشاء.</p>
+            </div>
+            <div class="mode">
+              <h3>كلمة مفتاحية</h3>
+              <p>تنبيه حين تظهر كلمة مثل «متوفر»، أو حين تختفي عبارة مثل «لا توجد مواعيد متاحة».</p>
+            </div>
+          </div>
+          <figure class="wide-shot">
+            <img src="../img/ar/screenshot-2.png" width="1280" height="800" loading="lazy" alt="تحديد السعر في صفحة متجر: العنصر محاط بإطار في الصفحة، والنافذة المنبثقة تُظهر أنها تراقب #price كل 5 ثوانٍ.">
+            <figcaption>تحديد عنصر لمراقبته. المتجر التجريبي وهمي.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="phone" aria-labelledby="phone-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="phone-title">تنبيهات على هاتفك، وعند انخفاض الأسعار</h2>
+            <p>أضِف موضوع ntfy الخاص بك، أو عنوان Discord أو Telegram أو Slack، أو أي Webhook، وسيرسل RefreshWatch التنبيه إليه مباشرة. لا حساب لدينا، ولا يمرّ أي شيء عبر خوادمنا.</p>
+            <p><a href="../phone-alerts/" hreflang="en">إشعار على الهاتف عند تغيّر موقع ويب</a> &middot; <a href="../price-drop-alert/" hreflang="en">تنبيه انخفاض السعر في Chrome</a> (بالإنجليزية)</p>
+          </div>
+          <figure class="wide-shot">
+            <img src="../img/ar/screenshot-4.png" width="1280" height="800" loading="lazy" alt="تبويب «تنبيهات الهاتف» مع وجهتين، ntfy وDiscord، ورسالة «تم الإرسال. تحقق من هاتفك.» بعد الاختبار.">
+            <figcaption>وجهتان، اختُبرت إحداهما. لا يفحص RefreshWatch إلا الصفحات المفتوحة في التبويبات، لذا اترك Chrome مفتوحًا.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section free" aria-labelledby="free-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="free-title">مجانًا: ميزات تتقاضى عليها إضافات أخرى رسومًا</h2>
+            <p>كل ميزة أدناه لا تتوفر إلا ضمن باقة مدفوعة في إضافة واحدة على الأقل من إضافات التحديث التلقائي أو مراقبة الصفحات الشائعة. أما في RefreshWatch فهي جزء من الإضافة ببساطة، دون باقة مدفوعة ودون فترة تجريبية ودون حساب. وبعض الميزات المدفوعة لدى غيره، مثل وحدات الماكرو وتنبيهات البريد الإلكتروني أو الرسائل النصية والفحص السحابي، لا يقدّمها RefreshWatch أصلًا.</p>
+          </div>
+          <table class="free-table">
+            <thead>
+              <tr><th scope="col">الميزة</th><th scope="col">ما تحصل عليه</th><th scope="col">RefreshWatch</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">مراقبة جزء من الصفحة</th><td>اختر أي عنصر، ولن يصلك تنبيه إلا عند تغيّره</td><td class="yes">مجاني</td></tr>
+              <tr><th scope="row">تنبيهات الكلمات المفتاحية</th><td>ظهور كلمة أو عبارة، أو اختفاؤها</td><td class="yes">مجاني</td></tr>
+              <tr><th scope="row">النقر على زر بعد إعادة التحميل</th><td>اختر الزر ومدة الانتظار</td><td class="yes">مجاني</td></tr>
+              <tr><th scope="row">فترة عشوائية</th><td>أي قيمة بين رقمين، من ثانية واحدة إلى 24 ساعة</td><td class="yes">مجاني</td></tr>
+              <tr><th scope="row">إعدادات محفوظة لكل صفحة</th><td>قواعد حسب العنوان المطابق أو بدايته أو حرف بدل، تبدأ تلقائيًا</td><td class="yes">مجاني</td></tr>
+              <tr><th scope="row">دون حد لعدد المراقبات</th><td>ما تشاء من التبويبات والقواعد</td><td class="yes">مجاني</td></tr>
+              <tr><th scope="row">سجل التغييرات</th><td>آخر 50 تغييرًا، مع النص قبل التغيير وبعده</td><td class="yes">مجاني</td></tr>
+            </tbody>
+          </table>
+          <p class="fine">المقارنة مع الباقات المدفوعة المذكورة في سوق Chrome Web Store وصفحات الأسعار لدى المطوّرين، وقد رُوجعت في 9 أكتوبر 2026. أما المقارنة مع إضافة معروفة بعينها فتجدها في <a href="../auto-refresh-plus-alternative/" hreflang="en">صفحة البديل (بالإنجليزية)</a>.</p>
+        </div>
+      </section>
+
+      <section class="section privacy-band" aria-labelledby="privacy-title">
+        <div class="shell">
+          <div>
+            <h2 id="privacy-title">لا يمرّ شيء عبرنا<span class="pupil" aria-hidden="true"></span></h2>
+            <p>يقرأ RefreshWatch الصفحات ويقارنها على حاسوبك، وليس له خادم خاص. والشيء الوحيد الذي يرسله هو التنبيه، إلى وجهة هاتف أعددتها بنفسك.</p>
+            <p><a href="../privacy-policy.html" hreflang="en">اقرأ سياسة الخصوصية (بالإنجليزية)</a></p>
+          </div>
+          <ul class="privacy-list">
+            <li><strong>دون حساب</strong>ثبّته وابدأ. لا شيء تحتاج إلى التسجيل فيه.</li>
+            <li><strong>لا تحليلات ولا إعلانات ولا تتبّع</strong>لا طلبات شبكة إطلاقًا، باستثناء تنبيهات الهاتف التي تُعدّها.</li>
+            <li><strong>الوصول إلى المواقع موقعًا تلو الآخر</strong>التحديث التلقائي البسيط لا يحتاج إلى أي إذن وصول. وحين تفعّل المراقبة لموقع ما، يسألك Chrome عن هذا الموقع وحده.</li>
+            <li><strong>تخزين على جهازك</strong>تبقى القواعد والإعدادات وسجل التغييرات في Chrome على هذا الحاسوب، وتُحذف عند إزالة الإضافة.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="how" aria-labelledby="how-title">
+        <div class="shell">
+          <div class="section-head">
+            <h2 id="how-title">ثلاث خطوات من فتح التبويب إلى التنبيه</h2>
+          </div>
+          <ol class="steps">
+            <li><h3>اختر الفترة</h3><p>انقر على أيقونة RefreshWatch في التبويب، واختر من 5 ث إلى 15 د، أو وقتًا مخصصًا، أو نطاقًا عشوائيًا.</p></li>
+            <li><h3>اختر ما تراقبه</h3><p>الصفحة كاملة، أو عنصرًا تشير إليه، أو كلمة مفتاحية. أو لا شيء، للتحديث التلقائي البسيط.</p></li>
+            <li><h3>تلقَّ التنبيه</h3><p>عند حدوث التغيير يصلك إشعار وصوت، ويتوقف التحديث. احفظ الإعداد كقاعدة ليبدأ تلقائيًا في المرة القادمة.</p></li>
+          </ol>
+          <figure class="wide-shot">
+            <img src="../img/ar/screenshot-3.png" width="1280" height="800" loading="lazy" alt="النافذة المنبثقة بعد مطابقة الكلمة المفتاحية «متوفر»: توقف التحديث لأن الصفحة تغيّرت، وبجانبها صفحة المتجر التي تعرض الآن «متوفر».">
+            <figcaption>تنبيه كلمة مفتاحية: ظهرت «متوفر» في التحديث الثالث، فتوقف RefreshWatch.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="shell">
+          <div>
+            <h2 id="closing-title">كفاك ضغطًا على زر إعادة التحميل</h2>
+            <p>مجاني في سوق Chrome Web Store، ومتوفر بالإنجليزية والعربية والألمانية والإسبانية والفرنسية واليابانية والبرتغالية البرازيلية والصينية المبسطة والروسية.</p>
+          </div>
+          <a class="button" href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ar">أضِف إلى Chrome</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div>
+          <a class="brand" href="./"><img src="../icon.svg" alt="" width="30" height="30">RefreshWatch</a>
+          <p>تحديث تلقائي وتنبيهات بتغيّر الصفحات في Chrome. مجاني، دون حساب ودون خوادم: لا يمرّ شيء عبرنا.</p>
+        </div>
+        <div class="footer-col">
+          <strong>الأدلة (بالإنجليزية)</strong>
+          <a href="../auto-refresh-chrome/" hreflang="en">التحديث التلقائي في Chrome</a>
+          <a href="../website-change-alert/" hreflang="en">تنبيهات تغيّر المواقع</a>
+          <a href="../auto-refresh-plus-alternative/" hreflang="en">بديل مجاني</a>
+          <a href="../phone-alerts/" hreflang="en">تنبيهات الهاتف</a>
+          <a href="../price-drop-alert/" hreflang="en">تنبيه انخفاض السعر</a>
+        </div>
+        <div class="footer-col">
+          <strong>المساعدة (بالإنجليزية)</strong>
+          <a href="../support.html" hreflang="en">الدعم والأسئلة الشائعة</a>
+          <a href="../privacy-policy.html" hreflang="en">سياسة الخصوصية</a>
+        </div>
+        <div class="footer-col">
+          <strong>احصل عليه</strong>
+          <a href="https://chromewebstore.google.com/detail/kbgkognidbbfndooipfnoldiaeganhje?utm_source=refreshwatch.com&amp;utm_medium=site&amp;utm_campaign=home-ar">Chrome Web Store</a>
+        </div>
+        <nav class="footer-langs" aria-label="اللغة">
+          <ul>
+            <li><a href="../" hreflang="en" lang="en">English</a></li>
+            <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
+            <li><a href="../zh/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+            <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
+            <li><a href="../es/" hreflang="es" lang="es">Español</a></li>
+            <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
+            <li><a href="../pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+            <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
+            <li><a href="./" hreflang="ar" lang="ar" dir="rtl" aria-current="page">العربية</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
