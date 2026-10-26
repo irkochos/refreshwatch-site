@@ -1,0 +1,45 @@
+Actualisez automatiquement n'importe quel onglet Edge à intervalle régulier, et soyez prévenu dès que la page change : sur votre ordinateur, ou par une notification sur votre mobile via une application que vous utilisez déjà. RefreshWatch recharge la page pour vous, vérifie ce qui compte pour vous après chaque rechargement et vous alerte par une notification et un son. Aucun compte, et rien ne passe par nos serveurs.
+
+Idéal quand vous attendez quelque chose : le retour en stock d'une taille épuisée, l'ouverture d'une billetterie, un créneau de rendez-vous pour un visa, une nouvelle offre d'emploi, un prix plus bas, ou un tableau de bord qui doit rester à jour.
+
+Nouveautés de cette version :
+
+- Alertes sur mobile : recevez des alertes sur votre mobile via Discord, Slack, Telegram ou ntfy, ou toute application qui accepte un webhook. Vous collez votre propre lien ; RefreshWatch y envoie l'alerte directement. Pas de compte chez nous, et rien ne passe par nos serveurs : nous n'en avons pas. Utilisez-le comme notification Discord sur votre serveur, comme alerte Telegram dans votre propre conversation ou comme notification push ntfy sans aucune inscription, et vérifiez le tout avec « Envoyer un test ».
+- Alerte de baisse de prix : surveillez un prix et soyez prévenu quand il passe sous votre seuil, ou à chaque fois qu'il change.
+- Cliquer après le rechargement : RefreshWatch peut cliquer jusqu'à cinq boutons à la suite après chaque rechargement, par exemple « Mois suivant » puis « Voir les horaires », avant de vérifier la page.
+- Préréglages : configuration en un clic pour « Retour en stock », « Rendez-vous », « Billets », « Baisse de prix » et « Offres d'emploi ».
+
+Gratuit, sans version payante. Toutes les fonctions ci-dessous sont gratuites, sans limite d'onglets ni de règles :
+
+- Minuteur d'actualisation pour n'importe quel onglet : préréglages de 5 s, 10 s, 30 s, 1 min, 5 min et 15 min, un intervalle personnalisé de 1 seconde à 24 heures, ou un intervalle aléatoire entre deux valeurs. Un compte à rebours sur l'icône de la barre d'outils indique quand arrive le prochain rechargement.
+- Arrêt selon vos conditions : après un nombre d'actualisations, à une heure précise, ou dès que le changement que vous attendez se produit.
+- Surveillance de page : comparez le texte visible de toute la page après chaque rechargement, ou choisissez un élément (un prix, un plan de salle, une ligne d'état) pour n'être alerté que lorsque cette partie change.
+- Alerte par mot-clé : soyez alerté quand un mot ou une expression apparaît, comme « En stock », ou disparaît, comme « Aucun rendez-vous disponible ».
+- Ignorez les nombres qui changent, pour que les horloges et les compteurs ne déclenchent pas de fausses alertes.
+- Des alertes à votre façon : une notification sur le bureau (cliquez dessus pour revenir à l'onglet), un son au choix parmi cinq avec volume réglable, l'onglet affiché au premier plan, et l'arrêt de l'actualisation.
+- Cliquer sur un bouton après le rechargement : choisissez un bouton sur la page et RefreshWatch clique dessus après chaque rechargement, avec le délai de votre choix.
+- Règles enregistrées : enregistrez une page comme règle (URL exacte, Commence par ou Caractère générique) et la surveillance démarre toute seule dès que vous ouvrez une page correspondante. Modifiez, désactivez ou supprimez vos règles sur la page des options.
+- Journal des changements : la page des options conserve les 50 derniers changements, avec l'heure, la page et le texte avant et après, par exemple un prix qui passe de 148,00 € à 119,00 €.
+- Actualisation forcée sans cache, actualisation uniquement quand vous êtes sur un autre onglet, et position de défilement conservée après chaque rechargement automatique.
+- Disponible en anglais, arabe, allemand, espagnol, français, japonais, portugais du Brésil, chinois simplifié et russe.
+
+Si vous cherchiez une extension d'actualisation automatique capable aussi de surveiller les changements d'un site, voici un seul outil pour les deux : une façon simple d'actualiser une page automatiquement, et un outil de suivi des modifications de site qui vous montre ce qui a changé. Sélectionnez le prix sur la page d'une boutique et il sert aussi de suivi de prix tout simple, avec le nombre lu affiché dans la fenêtre de l'extension.
+
+Confidentialité. RefreshWatch ne nous envoie jamais rien ; nous n'avons pas de serveurs. Il n'effectue une requête réseau que dans un seul cas : si vous ajoutez une destination d'alertes sur mobile, il envoie vos alertes (le titre de la page, son adresse et, si vous laissez l'option activée, le texte modifié) à l'adresse que vous avez saisie, comme votre webhook Discord ou votre sujet ntfy. Ce que ce service reçoit relève de sa propre politique de confidentialité. Supprimez la destination et plus rien n'est envoyé.
+
+Les autorisations, en clair :
+
+- Alarmes : pour minuter les actualisations, même quand Edge met l'extension en veille entre deux.
+- Stockage : pour conserver vos règles, vos réglages et votre journal des changements sur votre ordinateur.
+- Notifications : pour afficher l'alerte quand une page change.
+- Scripts : pour lire le texte surveillé, lancer le sélecteur d'élément, cliquer sur le bouton choisi et rétablir votre position de défilement, uniquement sur les sites que vous avez autorisés.
+- Offscreen : pour jouer le son d'alerte.
+- Onglet actif : pour agir sur l'onglet où vous êtes quand vous ouvrez RefreshWatch.
+- L'accès aux sites est facultatif et demandé un site à la fois. L'actualisation automatique simple n'en a pas besoin. RefreshWatch ne demande l'accès à un site que lorsque vous activez la surveillance, les clics, la conservation de la position de défilement ou une règle enregistrée pour ce site, ou lorsque vous ajoutez une destination d'alertes sur mobile (il demande alors cette seule adresse, comme discord.com, pour pouvoir y envoyer). L'installation n'affiche aucun avertissement du type « lire toutes vos données ».
+
+Bon à savoir :
+
+- Sans accès au site, l'actualisation automatique simple ne peut pas savoir quand vous quittez le site : elle continue donc d'actualiser cet onglet jusqu'à ce que vous l'arrêtiez.
+- Edge ne permet pas aux extensions de lire les pages edge:// ni le Edge Web Store, ni d'y exécuter des scripts : seule l'actualisation automatique y fonctionne.
+- Après une mise à jour de RefreshWatch, les minuteurs en cours redémarrent sur les onglets ouverts qui correspondent à une règle enregistrée ; les autres onglets doivent être relancés.
+- RefreshWatch surveille les pages dans les onglets ouverts. Il ne vérifie pas les pages dans le cloud quand Edge est fermé : laissez donc Edge ouvert sur votre ordinateur pendant que vous attendez.

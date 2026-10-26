@@ -1,0 +1,45 @@
+Recarga cualquier pestaña de Edge automáticamente con un temporizador y entérate en cuanto cambie la página: en el escritorio o como notificación en el móvil, a través de una app que ya usas. RefreshWatch recarga la página por ti, comprueba lo que te importa tras cada recarga y te avisa con una notificación y un sonido. No hace falta cuenta, y nada pasa por nuestros servidores.
+
+Úsalo cuando estés esperando algo: que vuelvan a estar disponibles tallas agotadas, la salida a la venta de entradas, una cita libre para el visado, una nueva oferta de empleo, un precio más bajo o un panel que tiene que estar siempre al día.
+
+Novedades de esta versión:
+
+- Alertas al móvil: recibe alertas en tu móvil a través de Discord, Slack, Telegram o ntfy, o de cualquier app que acepte un webhook. Pegas tu propio enlace y RefreshWatch envía la alerta directamente allí. Sin cuenta con nosotros, y nada pasa por nuestros servidores. No tenemos ninguno. Úsalo como notificación de Discord en tu servidor, como alerta de Telegram en tu propio chat o como aviso push de ntfy sin registrarte en nada, y compruébalo con «Enviar prueba».
+- Alerta de bajada de precio: vigila un precio y entérate cuando baje de la cifra que elijas, o cada vez que cambie.
+- Hacer clic tras recargar: pulsa hasta cinco botones después de cada recarga, como «Mes siguiente» y luego «Ver horarios», antes de comprobar la página.
+- Ajustes rápidos: configuraciones de un clic para «Reposición», «Cita», «Entradas», «Bajada de precio» y «Ofertas de empleo».
+
+Gratis, sin versión de pago. Todas estas funciones son gratuitas, sin límite de pestañas ni de reglas:
+
+- Temporizador de recarga para cualquier pestaña: intervalos predefinidos de 5 s, 10 s, 30 s, 1 min, 5 min y 15 min, un intervalo personalizado de 1 segundo a 24 horas o un intervalo aleatorio entre dos valores. Una cuenta atrás en el icono de la barra de herramientas muestra cuándo llega la siguiente recarga.
+- Se detiene cuando tú decides: tras un número de recargas, a una hora concreta o en cuanto ocurra el cambio que estás esperando.
+- Monitor de páginas: compara el texto visible de toda la página tras cada recarga, o elige un elemento (un precio, un mapa de asientos, una línea de estado) y recibe una alerta solo cuando cambie esa parte.
+- Alerta por palabra clave: recibe un aviso cuando aparezca una palabra o frase, como «En stock», o cuando desaparezca, como «No hay citas disponibles».
+- Ignora los números que cambian, para que relojes y contadores no provoquen falsas alarmas.
+- Alertas a tu manera: una notificación de escritorio (haz clic en ella para ir a la pestaña), uno de cinco sonidos con volumen ajustable, traer la pestaña al frente y dejar de recargar.
+- Hacer clic en un botón tras recargar: elige un botón de la página y RefreshWatch lo pulsa después de cada recarga, con el retardo que tú decidas.
+- Reglas guardadas: guarda una página como regla (URL exacta, Empieza por o Comodín) y la vigilancia se inicia sola cada vez que abras una página que coincida. Edita, desactiva o elimina reglas en la página de opciones.
+- Registro de cambios: la página de opciones guarda los últimos 50 cambios, con la hora, la página y el texto de antes y de después, como un precio que pasa de 148,00 € a 119,00 €.
+- Recarga forzada sin caché, recargar solo mientras estás en otra pestaña y mantener la posición de desplazamiento tras cada recarga automática.
+- Disponible en inglés, árabe, alemán, español, francés, japonés, portugués de Brasil, chino simplificado y ruso.
+
+Si buscabas una extensión para actualizar automáticamente una página que además pueda vigilar los cambios de una web, esta es una sola herramienta para ambas cosas: una forma sencilla de recargar una página automáticamente y un monitor de cambios web que te dice qué ha cambiado. Elige el precio en la página de una tienda y también funciona como un sencillo rastreador de precios, con la cifra leída a la vista en la ventana emergente.
+
+Privacidad. RefreshWatch nunca nos envía nada; no tenemos servidores. Solo hace una petición de red en un caso: si añades un destino de alertas al móvil, envía tus alertas (el título de la página, la dirección y, si lo dejas activado, el texto que ha cambiado) a la dirección que hayas introducido, como tu webhook de Discord o tu tema de ntfy. A lo que recibe ese servicio se le aplica su propia política de privacidad. Elimina el destino y no se envía nada.
+
+Permisos, en pocas palabras:
+
+- Alarmas: para programar las recargas, incluso cuando Edge pone la extensión en reposo entre una y otra.
+- Almacenamiento: para guardar tus reglas, ajustes y registro de cambios en tu ordenador.
+- Notificaciones: para mostrar la alerta cuando cambia una página.
+- Scripts: para leer el texto vigilado, usar el selector de elementos, pulsar el botón que elegiste y restaurar tu posición de desplazamiento, solo en los sitios que hayas permitido.
+- Offscreen: para reproducir el sonido de alerta.
+- Pestaña activa: para trabajar con la pestaña en la que estás cuando abres RefreshWatch.
+- El acceso a sitios es opcional y se pide de uno en uno. La recarga automática básica no necesita ninguno. RefreshWatch solo pide acceso a un sitio cuando activas la vigilancia, los clics, mantener la posición de desplazamiento o una regla guardada para ese sitio, o cuando añades un destino de alertas al móvil (pide solo esa dirección, como discord.com, para poder enviar a ella). Al instalarla no aparece ningún aviso de «leer todos tus datos».
+
+Conviene saber:
+
+- Sin acceso al sitio, la recarga automática básica no puede saber cuándo sales del sitio, así que sigue recargando esa pestaña hasta que la detengas.
+- Edge no permite a las extensiones leer ni ejecutar scripts en las páginas edge:// ni en Edge Web Store, así que allí solo funciona la recarga automática.
+- Cuando RefreshWatch se actualiza, los temporizadores en marcha se reinician en las pestañas abiertas que coinciden con una regla guardada; en las demás pestañas hay que volver a iniciarlos.
+- RefreshWatch vigila páginas en pestañas abiertas. No comprueba páginas en la nube mientras Edge está cerrado, así que deja Edge abierto en tu ordenador mientras esperas.

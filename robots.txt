@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /store-text/
 
 Sitemap: https://refreshwatch.com/sitemap.xml

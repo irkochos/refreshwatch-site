@@ -1,0 +1,45 @@
+Jeden Edge-Tab per Timer automatisch aktualisieren und sofort erfahren, wenn sich die Seite ändert: auf dem Desktop oder als Benachrichtigung aufs Handy, über eine App, die du schon nutzt. RefreshWatch lädt die Seite für dich neu, prüft nach jedem Neuladen, was dir wichtig ist, und meldet sich mit einer Benachrichtigung und einem Ton. Es gibt kein Konto, und nichts läuft über unsere Server.
+
+Ideal, wenn du auf etwas wartest: ausverkaufte Größen, die wieder auf Lager sind, den Start eines Ticketverkaufs, einen freien Visumtermin, eine neue Stellenanzeige, einen niedrigeren Preis oder ein Dashboard, das aktuell bleiben muss.
+
+Neu in dieser Version:
+
+- Handy-Alarme: Erhalte Alarme auf dem Handy über Discord, Slack, Telegram oder ntfy oder über jede App, die einen Webhook annimmt. Du fügst deinen eigenen Link ein; RefreshWatch schickt den Alarm direkt dorthin. Kein Konto bei uns, und nichts läuft über unsere Server. Wir haben gar keine. Nutze es als Discord-Benachrichtigung auf deinem Server, als Telegram-Alarm in deinem eigenen Chat oder als ntfy-Push ganz ohne Anmeldung, und prüfe es mit „Test senden“.
+- Alarm bei Preissenkung: Beobachte einen Preis und erfahre, wenn er unter deinen Wert fällt oder sich in irgendeiner Weise ändert.
+- Nach dem Neuladen klicken: Bis zu fünf Schaltflächen nach jedem Neuladen anklicken, etwa „Nächster Monat“ und dann „Zeiten anzeigen“, bevor die Seite geprüft wird.
+- Vorlagen: Mit einem Klick eingerichtet für „Wieder auf Lager“, „Termin“, „Tickets“, „Preissenkung“ und „Stellenangebote“.
+
+Kostenlos, ohne Bezahlversion. Jede Funktion hier ist gratis, ohne Limit bei Tabs oder Regeln:
+
+- Aktualisierungs-Timer für jeden Tab: Vorgaben von 5 s, 10 s, 30 s, 1 Min., 5 Min. und 15 Min., ein eigenes Intervall von 1 Sekunde bis 24 Stunden oder ein zufälliges Intervall zwischen zwei Werten. Ein Countdown am Symbol in der Symbolleiste zeigt, wann das nächste Neuladen kommt.
+- Anhalten, wie du willst: nach einer bestimmten Zahl von Aktualisierungen, zu einer Uhrzeit oder sobald die Änderung eintritt, auf die du wartest.
+- Seitenüberwachung: Vergleiche nach jedem Neuladen den sichtbaren Text der ganzen Seite, oder wähle ein Element (einen Preis, einen Sitzplan, eine Statuszeile) und werde nur benachrichtigt, wenn sich genau dieser Teil ändert.
+- Stichwort-Alarm: Werde benachrichtigt, wenn ein Wort oder eine Wortgruppe erscheint, etwa „Auf Lager“, oder wenn sie verschwindet, etwa „Keine Termine verfügbar“.
+- Wechselnde Zahlen ignorieren, damit Uhren und Zähler keine Fehlalarme auslösen.
+- Alarme nach deinem Geschmack: eine Desktop-Benachrichtigung (ein Klick darauf springt zum Tab), einer von fünf Tönen mit einstellbarer Lautstärke, den Tab in den Vordergrund holen und das Neuladen beenden.
+- Nach dem Neuladen eine Schaltfläche klicken: Wähle eine Schaltfläche auf der Seite, und RefreshWatch klickt sie nach jedem Neuladen an, mit einer Verzögerung deiner Wahl.
+- Gespeicherte Regeln: Speichere eine Seite als Regel (Exakte URL, Beginnt mit oder Platzhalter), und die Überwachung startet von selbst, sobald du eine passende Seite öffnest. Regeln bearbeitest, deaktivierst oder löschst du auf der Optionsseite.
+- Änderungsverlauf: Die Optionsseite bewahrt die letzten 50 Änderungen auf, mit Uhrzeit, Seite und dem Text vorher und nachher, etwa ein Preis, der von 148,00 € auf 119,00 € fällt.
+- Hartes Neuladen ohne Cache, nur neu laden, während du auf einem anderen Tab bist, und die Scrollposition nach jedem automatischen Neuladen beibehalten.
+- Verfügbar auf Englisch, Arabisch, Deutsch, Spanisch, Französisch, Japanisch, brasilianischem Portugiesisch, vereinfachtem Chinesisch und Russisch.
+
+Wenn du eine Erweiterung suchst, mit der du Seiten automatisch aktualisieren und zugleich Websites auf Änderungen überwachen kannst, bekommst du hier beides in einem Werkzeug: eine einfache Möglichkeit, eine Seite automatisch neu zu laden, und eine Überwachung von Seitenänderungen, die dir zeigt, was sich geändert hat. Wähle den Preis auf einer Shopseite, und es arbeitet auch als einfacher Preistracker, mit der gelesenen Zahl im Popup.
+
+Datenschutz. RefreshWatch sendet nie etwas an uns; wir haben keine Server. Eine Netzwerkanfrage stellt es nur in einem einzigen Fall: Wenn du ein Ziel für Handy-Alarme hinzufügst, sendet es deine Alarme (Seitentitel, Adresse und, wenn du die Option eingeschaltet lässt, den geänderten Text) an die Adresse, die du eingegeben hast, etwa deinen Discord-Webhook oder dein ntfy-Topic. Für das, was dieser Dienst empfängt, gilt seine eigene Datenschutzerklärung. Entferne das Ziel, und es wird nichts gesendet.
+
+Berechtigungen, einfach erklärt:
+
+- Alarme: um die Aktualisierungen zu takten, auch wenn Edge die Erweiterung zwischendurch schlafen legt.
+- Speicher: um deine Regeln, Einstellungen und den Änderungsverlauf auf deinem Computer zu speichern.
+- Benachrichtigungen: um den Alarm anzuzeigen, wenn sich eine Seite ändert.
+- Skripte: um den beobachteten Text zu lesen, die Elementauswahl auszuführen, die gewählte Schaltfläche anzuklicken und deine Scrollposition wiederherzustellen, nur auf Websites, die du erlaubt hast.
+- Offscreen: um den Alarmton abzuspielen.
+- Aktiver Tab: um mit dem Tab zu arbeiten, auf dem du gerade bist, wenn du RefreshWatch öffnest.
+- Websitezugriff ist optional und wird immer nur für eine Website erfragt. Einfaches automatisches Neuladen braucht keinen. RefreshWatch fragt nur dann nach einer Website, wenn du für sie das Beobachten, das Klicken, das Beibehalten der Scrollposition oder eine gespeicherte Regel einschaltest, oder wenn du ein Ziel für Handy-Alarme hinzufügst (dann fragt es nur nach dieser einen Adresse, etwa discord.com, damit es dorthin senden kann). Bei der Installation erscheint keine Warnung, dass die Erweiterung all deine Daten lesen kann.
+
+Gut zu wissen:
+
+- Ohne Websitezugriff merkt das einfache automatische Neuladen nicht, wenn du die Website verlässt, und lädt diesen Tab deshalb weiter neu, bis du es beendest.
+- Edge erlaubt Erweiterungen nicht, edge://-Seiten oder den Edge Web Store zu lesen oder dort Skripte auszuführen, daher funktioniert dort nur das automatische Neuladen.
+- Nach einem Update von RefreshWatch starten laufende Timer auf offenen Tabs neu, die zu einer gespeicherten Regel passen; andere Tabs musst du erneut starten.
+- RefreshWatch überwacht Seiten in geöffneten Tabs. Es prüft keine Seiten in der Cloud, während Edge geschlossen ist, also lass Edge auf deinem Computer geöffnet, solange du wartest.

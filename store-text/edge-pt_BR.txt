@@ -1,0 +1,45 @@
+Atualize automaticamente qualquer aba do Edge com um timer e saiba na hora quando a página mudar: no computador ou como notificação no celular, por um app que você já usa. O RefreshWatch recarrega a página para você, confere o que importa depois de cada recarga e avisa com uma notificação e um som. Não precisa de conta, e nada passa pelos nossos servidores.
+
+Use quando estiver esperando alguma coisa: a reposição de tamanhos esgotados, a abertura da venda de ingressos, um horário livre para o visto, uma nova vaga de emprego, um preço menor ou um painel que precisa ficar sempre atualizado.
+
+Novidades desta versão:
+
+- Alertas no celular: receba alertas no celular pelo Discord, Slack, Telegram ou ntfy, ou por qualquer app que aceite um webhook. Você cola o seu próprio link; o RefreshWatch envia o alerta direto para lá. Sem conta com a gente, e nada passa pelos nossos servidores. Nós não temos nenhum. Use como notificação do Discord no seu servidor, alerta do Telegram no seu próprio chat ou push do ntfy sem cadastro nenhum, e confira com "Enviar teste".
+- Alerta de queda de preço: acompanhe um preço e saiba quando ele cair abaixo do valor que você definir, ou sempre que mudar.
+- Clicar após recarregar: clique em até cinco botões depois de cada recarga, como "Próximo mês" e depois "Ver horários", antes de a página ser conferida.
+- Predefinições: configuração com um clique para "Reposição", "Consulta", "Ingressos", "Queda de preço" e "Vagas de emprego".
+
+Grátis, sem plano pago. Todos os recursos abaixo são gratuitos, sem limite de abas ou regras:
+
+- Timer de atualização para qualquer aba: intervalos prontos de 5 s, 10 s, 30 s, 1 min, 5 min e 15 min, um intervalo personalizado de 1 segundo a 24 horas ou um intervalo aleatório entre dois valores. Uma contagem regressiva no ícone da barra de ferramentas mostra quando vem a próxima recarga.
+- Pare quando quiser: depois de um número de atualizações, em um horário definido ou assim que acontecer a mudança que você está esperando.
+- Monitor de páginas: compare o texto visível da página inteira depois de cada recarga, ou escolha um elemento (um preço, um mapa de assentos, uma linha de status) e receba alerta só quando essa parte mudar.
+- Alerta de palavra-chave: receba um alerta quando uma palavra ou frase aparecer, como "Em estoque", ou quando sumir, como "Nenhum horário disponível".
+- Ignore números que mudam, para que relógios e contadores não gerem alertas falsos.
+- Alertas do seu jeito: uma notificação na área de trabalho (clique nela para ir até a aba), um de cinco sons com volume ajustável, trazer a aba para a frente e parar de atualizar.
+- Clicar em um botão após recarregar: escolha um botão na página e o RefreshWatch clica nele depois de cada recarga, com o atraso que você escolher.
+- Regras salvas: salve uma página como regra (URL exata, Começa com ou Curinga) e o monitoramento começa sozinho sempre que você abrir uma página correspondente. Edite, desative ou exclua regras na página de opções.
+- Histórico de mudanças: a página de opções guarda as últimas 50 mudanças, com o horário, a página e o texto de antes e de depois, como um preço que passou de R$ 148,00 para R$ 119,00.
+- Atualização forçada que ignora o cache, atualizar só enquanto você está em outra aba e manter a posição de rolagem depois de cada recarga automática.
+- Disponível em inglês, árabe, alemão, espanhol, francês, japonês, português do Brasil, chinês simplificado e russo.
+
+Se você procurava uma extensão para atualizar a página automaticamente que também monitore um site em busca de mudanças, esta é uma única ferramenta para as duas coisas: um jeito simples de atualizar uma página automaticamente e um monitor de mudanças em sites que mostra o que mudou. Escolha o preço na página de uma loja e ela também funciona como um rastreador de preços simples, com o número lido mostrado no pop-up.
+
+Privacidade. O RefreshWatch nunca envia nada para nós; não temos servidores. Ele só faz uma requisição de rede em um caso: se você adicionar um destino de alertas no celular, ele envia seus alertas (o título da página, o endereço e, se você deixar ativado, o texto que mudou) para o endereço que você informou, como o seu webhook do Discord ou o seu tópico do ntfy. A política de privacidade desse serviço vale para o que ele recebe. Remova o destino e nada é enviado.
+
+Permissões, em palavras simples:
+
+- Alarmes: para cronometrar as atualizações, mesmo quando o Edge coloca a extensão em repouso entre elas.
+- Armazenamento: para guardar suas regras, configurações e histórico de mudanças no seu computador.
+- Notificações: para mostrar o alerta quando uma página muda.
+- Scripts: para ler o texto monitorado, abrir o seletor de elementos, clicar no botão que você escolheu e restaurar sua posição de rolagem, só nos sites que você permitiu.
+- Offscreen: para tocar o som de alerta.
+- Aba ativa: para trabalhar com a aba em que você está quando abre o RefreshWatch.
+- O acesso a sites é opcional e pedido um site por vez. A atualização automática simples não precisa de nenhum. O RefreshWatch só pede acesso a um site quando você ativa o monitoramento, os cliques, manter a posição de rolagem ou uma regra salva para esse site, ou quando adiciona um destino de alertas no celular (ele pede só aquele endereço, como discord.com, para poder enviar para lá). A instalação não mostra nenhum aviso de "ler todos os seus dados".
+
+Bom saber:
+
+- Sem acesso ao site, a atualização automática simples não consegue saber quando você sai do site, então continua atualizando aquela aba até você parar.
+- O Edge não deixa extensões lerem nem executarem scripts nas páginas edge:// ou na Edge Web Store, então ali só a atualização automática funciona.
+- Depois que o RefreshWatch é atualizado, os timers em andamento recomeçam nas abas abertas que correspondem a uma regra salva; as outras abas precisam ser iniciadas de novo.
+- O RefreshWatch monitora páginas em abas abertas. Ele não verifica páginas na nuvem enquanto o Edge está fechado, então deixe o Edge aberto no seu computador enquanto espera.
