@@ -280,3 +280,6 @@ code { font-family: var(--font-code); font-size: 0.9em; background: var(--accent
 }
 
 .hero + .section { padding-top: clamp(16px, 3vw, 32px); }
+
+.hero-edge { margin-top: 12px; font-size: 0.92rem; color: var(--muted); }
+.hero-edge a { color: inherit; text-decoration: underline; }
